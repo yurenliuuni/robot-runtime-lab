@@ -1,0 +1,52 @@
+schema_version = 1
+
+[[experiment]]
+id = "RRL-001"
+title = "異質機器人共享資源排程"
+status = "measured"
+path = "robotics/resource-scheduling"
+protocol = "robotics/resource-scheduling/docs/protocol.md"
+results = "robotics/resource-scheduling/results"
+evidence_commit = "e93836dd639d3f04f9b4bf0ef26554fa9fa956ae"
+
+[[experiment]]
+id = "RRL-002"
+title = "Robot runtime：取消、重試與資源釋放"
+status = "planned"
+path = "robotics/robot-runtime"
+
+[[experiment]]
+id = "SYS-001"
+title = "排程機制拆解：matching / aging / SPT ablation"
+status = "planned"
+path = "computer-systems/process-scheduling"
+
+[[experiment]]
+id = "SYS-002"
+title = "記憶體管理：固定配額與壓力感知回收"
+status = "planned"
+path = "computer-systems/memory-management"
+
+[[experiment]]
+id = "AI-001"
+title = "文件擷取：模型輸出能否被證據定位驗證"
+status = "planned"
+path = "ai"
+
+[[experiment]]
+id = "CON-001"
+title = "工程文件欄位擷取與來源追蹤"
+status = "planned"
+path = "construction/document-parsing"
+
+[[experiment]]
+id = "CON-002"
+title = "工項、機具與前置條件的排程"
+status = "planned"
+path = "construction/task-planning"
+
+[[experiment]]
+id = "XDS-001"
+title = "材料與工法：成本、工期與不確定性的共同決策"
+status = "planned"
+path = "multidisciplinary"

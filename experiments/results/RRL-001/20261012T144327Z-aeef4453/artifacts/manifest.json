@@ -1,0 +1,128 @@
+{
+  "python": "3.12.2",
+  "seeds": [
+    0,
+    1
+  ],
+  "horizon": 480,
+  "policies": [
+    "fifo",
+    "spt",
+    "edf",
+    "resource_aware",
+    "resource_aware_v2"
+  ],
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 812,
+  "runs": 90,
+  "workloads": [
+    {
+      "scenario": "balanced/low",
+      "seed": 0,
+      "jobs": 43,
+      "sha256": "3dd3adb5e92747209db68c4930a75cf09f7a9a1e00000441358465bc20dc2033"
+    },
+    {
+      "scenario": "balanced/low",
+      "seed": 1,
+      "jobs": 46,
+      "sha256": "03bb88e63da95780a925447e7430d3e25ac8991158efc6daa93cb6f1e899554b"
+    },
+    {
+      "scenario": "balanced/medium",
+      "seed": 0,
+      "jobs": 95,
+      "sha256": "9489ff842e20daf4b9ef7bf993a5a28d430c6f4b5141be7f3c8429ed88b5f412"
+    },
+    {
+      "scenario": "balanced/medium",
+      "seed": 1,
+      "jobs": 99,
+      "sha256": "9a77b781e35fc3daae9246a0f75a4075d0197f34c7a1234e2c594f6892724fdd"
+    },
+    {
+      "scenario": "balanced/high",
+      "seed": 0,
+      "jobs": 175,
+      "sha256": "2423d773f6940266753eed070db4ad6ce54b912486576710c12b61a0f35987fa"
+    },
+    {
+      "scenario": "balanced/high",
+      "seed": 1,
+      "jobs": 182,
+      "sha256": "efd611567a86d92bc556a2bb30b82165a0e4958e7971ebd79bd0908097dd6feb"
+    },
+    {
+      "scenario": "bottleneck/low",
+      "seed": 0,
+      "jobs": 43,
+      "sha256": "4d3d73d1afe1f1ede3b31528eb3f1d0c3977d289c40e8de05de0176dbd454ab1"
+    },
+    {
+      "scenario": "bottleneck/low",
+      "seed": 1,
+      "jobs": 46,
+      "sha256": "9f1d33201cfd97e6670022d94cab0ffdbd724fd073e2979210e330bc01f981f5"
+    },
+    {
+      "scenario": "bottleneck/medium",
+      "seed": 0,
+      "jobs": 95,
+      "sha256": "ea16cc1cf7acf66229fa013320a5d00ae30dd3c7fe8d6ae24ecf262052833705"
+    },
+    {
+      "scenario": "bottleneck/medium",
+      "seed": 1,
+      "jobs": 99,
+      "sha256": "2596b87a7577d6fe47d5accc781c38402c73a02bd046322c5f9841150fad08be"
+    },
+    {
+      "scenario": "bottleneck/high",
+      "seed": 0,
+      "jobs": 175,
+      "sha256": "3d5359419e9d55fce978a30778d9b4f5c1a96746d1a85452a37e3dac547dc3e9"
+    },
+    {
+      "scenario": "bottleneck/high",
+      "seed": 1,
+      "jobs": 182,
+      "sha256": "82627e59f25c7ec459a223955ff0a38fa31406c64169ab3ffc36ded5ad61e74d"
+    },
+    {
+      "scenario": "local_heavy/low",
+      "seed": 0,
+      "jobs": 43,
+      "sha256": "88b0ae48cdac43ebd34c368a350d63ad8c250b68624fae5a85334e4f177ead70"
+    },
+    {
+      "scenario": "local_heavy/low",
+      "seed": 1,
+      "jobs": 46,
+      "sha256": "19594c5ce568c2d33b7fc8b4e0fe40b8d9d6802dffa2f0f42be38108bd50b2db"
+    },
+    {
+      "scenario": "local_heavy/medium",
+      "seed": 0,
+      "jobs": 95,
+      "sha256": "2f73142841eaea84a04d67f13f622cbedfebb3192f3d50345af45dd253f539ad"
+    },
+    {
+      "scenario": "local_heavy/medium",
+      "seed": 1,
+      "jobs": 99,
+      "sha256": "d57a7a4ecb3a6e32f781637791e93e6db72bbecdfd6fc7ba84cd0d3448f9d7b5"
+    },
+    {
+      "scenario": "local_heavy/high",
+      "seed": 0,
+      "jobs": 175,
+      "sha256": "7c62acdc70ccc6c1b56d729f39d82e18b9a032caaa0eba393263e7f41520118b"
+    },
+    {
+      "scenario": "local_heavy/high",
+      "seed": 1,
+      "jobs": 182,
+      "sha256": "4802857f65279ca55c0b74eb177fd3a8edffcbcd427c246ee7d5599b034c7ed6"
+    }
+  ]
+}
