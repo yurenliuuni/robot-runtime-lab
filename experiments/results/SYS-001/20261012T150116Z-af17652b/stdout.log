@@ -1,0 +1,47 @@
+balanced/low: complete
+balanced/medium: complete
+balanced/high: complete
+bottleneck/low: complete
+bottleneck/medium: complete
+bottleneck/high: complete
+local_heavy/low: complete
+local_heavy/medium: complete
+local_heavy/high: complete
+[
+  {
+    "hypothesis": "H-M",
+    "metric": "throughput_per_hour",
+    "relative_change": 0.022182388527896002,
+    "difference": 0.41250000000000003,
+    "ci": [
+      0.14166666666666666,
+      0.7250173611111148
+    ],
+    "throughput_gate": true,
+    "passed": false
+  },
+  {
+    "hypothesis": "H-S",
+    "metric": "average_wait",
+    "relative_change": -0.07928567343247528,
+    "difference": -6.311829966734764,
+    "ci": [
+      -8.750373420253844,
+      -3.948111104513471
+    ],
+    "throughput_gate": true,
+    "passed": false
+  },
+  {
+    "hypothesis": "H-A",
+    "metric": "p95_wait",
+    "relative_change": -0.12198436454419892,
+    "difference": -45.836022492314875,
+    "ci": [
+      -65.34577558937355,
+      -28.402417697921333
+    ],
+    "throughput_gate": true,
+    "passed": true
+  }
+]

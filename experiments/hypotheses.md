@@ -1,6 +1,6 @@
 # 假說登錄｜Hypotheses
 
-2026-10-12 整合。保留原門檻，不因觀察結果變動。只有 RRL-001 已有量測證據；其餘為候選問題，執行前須完成各自 protocol。
+2026-10-12 整合。保留原門檻，不因觀察結果變動。RRL-001 與 SYS-001 已有量測證據；其餘為候選問題，執行前須完成各自 protocol。
 
 ## RRL-001 / H1 — 未達工程門檻
 
@@ -19,9 +19,18 @@ balanced/high，resource-aware v1 相對 FIFO：throughput ≥ +10%、mean cohor
 v3 相對 v1 則 throughput −1.89%、waiting +6.796 min、miss rate −2.296 pp。狀態：**supported within synthetic model; trade-off remains**。
 證據：[改善 protocol](../robotics/resource-scheduling/docs/improvement-protocol.md)、[validation manifest](../robotics/resource-scheduling/results/improvement/manifest.json)。
 
+## SYS-001 — 三個主要假說皆未 replicated
+
+[固定 protocol](../computer-systems/process-scheduling/protocol.md)；[結果](../computer-systems/process-scheduling/findings.md)。baseline / validation 各 3,240 runs。
+
+- H-M：throughput +2.22% / +0.76%，兩批均未達 +3%。
+- H-S：mean waiting −7.93% / −10.14%，只有第二批達 −10%。
+- H-A：p95 waiting −12.20% / −8.80%，只有第一批達 −10%；兩批 throughput loss gate 都通過。
+
+方向改善不等於工程門檻穩定達成；未因結果更改門檻。
+
 ## 尚未執行的候選問題
 
-- SYS-001（下一個優先）：拿掉 aging / matching / short-job preference 後，RRL-001 的收益是否仍存在？候選驗證設計為單因素 ablation；成功門檻尚未固定。
 - RRL-002：加入 fault / cancel / retry 後，能否保證每件工作只完成一次且資源最終釋放？先建立明確 failure model。
 - SYS-002：相同 memory trace 下，壓力感知回收能否減少 tail latency，且不增加總記憶體上限？先定 workload 與公平比較。
 - AI-001 / CON-001：擷取的欄位附上頁碼與證據片段後，人工核驗錯誤的能力是否提高？需要人工標註與分離的測試文件。

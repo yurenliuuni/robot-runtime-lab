@@ -26,7 +26,7 @@ research-lab/
 │   ├── robot-runtime/        # RRL-002，planned
 │   └── simulation/           # 共用模型界線與模擬驗證原則
 ├── computer-systems/
-│   ├── process-scheduling/   # SYS-001，planned
+│   ├── process-scheduling/   # SYS-001，measured
 │   └── memory-management/    # SYS-002，planned
 ├── ai/                      # AI-001，文件擷取與模型評估
 ├── construction/
@@ -54,7 +54,7 @@ research-lab/
 
 [RRL-001 結果](robotics/resource-scheduling/docs/findings.md)：主要情境 resource-aware v1 相對 FIFO，吞吐量 +5.63%、等待 −17.66%，未達預設 throughput +10% 門檻。v2 失敗，v3 在新 seeds 上改善 v2，但相對 v1 有期限、吞吐量與等待的取捨。
 
-下一個優先項目是 SYS-001：分別移除 matching、aging 與短工作偏好，檢查改善到底來自哪個機制；先寫 protocol 再開發，不同時開啟所有研究方向。
+SYS-001 已完成 6,480 次正式模擬：[機制拆解結果](computer-systems/process-scheduling/findings.md)。三個主要假說皆未在兩批同時達標；保留方向、幅度與代價。下一個候選是 RRL-002 的取消、重試與資源釋放，尚未執行。
 
 ## 分工與日常流程
 

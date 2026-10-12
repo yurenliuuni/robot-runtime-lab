@@ -16,10 +16,11 @@ jobs:
       - run: python scripts/lab.py check
       - run: python scripts/lab.py test
       - run: python scripts/lab.py benchmark RRL-001 --profile smoke
+      - run: python scripts/lab.py benchmark SYS-001 --profile smoke
       - run: python scripts/lab.py check
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: research-evidence-python-${{ matrix.python }}
-          path: experiments/results/RRL-001/
+          path: experiments/results/
           if-no-files-found: ignore

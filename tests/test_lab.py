@@ -75,7 +75,7 @@ class EvidenceTests(unittest.TestCase):
 
     def test_planned_experiment_cannot_be_run(self):
         with self.assertRaisesRegex(ValueError, "planned"):
-            lab.benchmark("SYS-001", "smoke")
+            lab.benchmark("SYS-002", "smoke")
 
 
 if __name__ == "__main__":

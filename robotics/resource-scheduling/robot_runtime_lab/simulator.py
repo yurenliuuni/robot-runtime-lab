@@ -125,7 +125,7 @@ def quantile95(values):
     return sorted(values)[max(0, math.ceil(.95 * len(values)) - 1)] if values else 0.0
 
 
-def simulate(jobs, policy="fifo", horizon=480):
+def simulate(jobs, policy="fifo", horizon=480, *, dispatcher=None):
     if policy not in POLICIES or not math.isfinite(horizon) or horizon <= 0:
         raise ValueError("unknown policy or invalid horizon")
     jobs = list(jobs)
@@ -151,7 +151,7 @@ def simulate(jobs, policy="fifo", horizon=480):
             else:
                 idle.add(robot)
                 free.update(RESOURCES[j.kind])
-        for j, robot in dispatch(waiting, idle, free, now, policy):
+        for j, robot in (dispatcher or dispatch)(waiting, idle, free, now, policy):
             assert robot in idle and set(RESOURCES[j.kind]) <= free
             finish = now + duration(j, robot)
             busy = max(0., min(finish, horizon) - min(now, horizon))

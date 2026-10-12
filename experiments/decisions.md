@@ -24,3 +24,9 @@
 
 決策：Codex 保管可執行證據；ChatGPT 協助解讀與反例；Work 整理來源與報告。Heptabase 保存概念與導航，Git 保存版本與測量。
 執行範圍：未建立自動排程或新 Work task，尚未啟動其他領域實驗。新外部動作沿用使用者明確授權範圍。
+
+## D-005｜2026-10-12｜保留未複現門檻與公平性代價
+
+證據：SYS-001 三個主要假說皆未在兩批同時達標。Aging 降低 p95，但平均等待與 deadline miss 變差。
+決策：不事後調權重或選 scenario 宣稱成功；先明定目標，再以新 protocol 拆解 max-cardinality 或研究 RRL-002 資源生命週期。
+重新檢討：取得新 workload、故障模型或實際需求權重時。詳見 [SYS-001 findings](../computer-systems/process-scheduling/findings.md)。
