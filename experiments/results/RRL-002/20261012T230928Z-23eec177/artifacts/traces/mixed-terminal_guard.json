@@ -1,0 +1,4335 @@
+{
+  "metrics": {
+    "duplicate_success": 0,
+    "cancelled_success": 0,
+    "false_success": 9,
+    "wrong_release": 21,
+    "physical_overlap": 12,
+    "stale_accepted": 9,
+    "ignored_callbacks": 52,
+    "cancel_requests_accepted": 6,
+    "retry_starts": 18,
+    "post_cancel_start": 0,
+    "jobs": 60,
+    "valid_success": 31,
+    "throughput_per_hour": 3.875,
+    "success_rate": 0.5166666666666667,
+    "canceled": 6,
+    "failed": 2,
+    "unfinished": 12,
+    "residual_reservations": 2,
+    "physical_remaining": 0,
+    "pending_reclaims": 0,
+    "attempts": 64,
+    "max_attempts": 3,
+    "makespan": 182,
+    "initial_wait": 9.043478260869565,
+    "started_jobs": 46,
+    "max_crash_reclaim": 3,
+    "max_cancel_reclaim": 2,
+    "r0_utilization": 0.26458333333333334,
+    "r1_utilization": 0.8979166666666667,
+    "r2_utilization": 0.9729166666666667,
+    "corridor_utilization": 0.28125,
+    "station_utilization": 0.3145833333333333,
+    "ledger_overlap": 12,
+    "safety_pass": false,
+    "recovery_pass": true
+  },
+  "trace": [
+    {
+      "time": 0,
+      "event": "arrival",
+      "job": 0,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 0,
+      "event": "start",
+      "job": 0,
+      "token": [
+        0,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 11
+    },
+    {
+      "time": 3,
+      "event": "arrival",
+      "job": 1,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 7,
+      "event": "arrival",
+      "job": 2,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 11,
+      "event": "arrival",
+      "job": 3,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 11,
+      "event": "physical_finish",
+      "job": 0,
+      "token": [
+        0,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 11,
+      "event": "success",
+      "job": 0,
+      "token": [
+        0,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 11,
+      "event": "start",
+      "job": 1,
+      "token": [
+        1,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 10
+    },
+    {
+      "time": 12,
+      "event": "arrival",
+      "job": 4,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 12,
+      "event": "crash",
+      "job": 1,
+      "token": [
+        1,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 15,
+      "event": "arrival",
+      "job": 5,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 15,
+      "event": "recover",
+      "job": 1,
+      "token": [
+        1,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 15,
+      "event": "start",
+      "job": 2,
+      "token": [
+        2,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 7
+    },
+    {
+      "time": 16,
+      "event": "retry",
+      "job": 1,
+      "token": [
+        1,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 19,
+      "event": "arrival",
+      "job": 6,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 22,
+      "event": "physical_finish",
+      "job": 2,
+      "token": [
+        2,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 22,
+      "event": "success",
+      "job": 2,
+      "token": [
+        2,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 22,
+      "event": "start",
+      "job": 1,
+      "token": [
+        1,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 10
+    },
+    {
+      "time": 23,
+      "event": "arrival",
+      "job": 7,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 25,
+      "event": "cancel",
+      "job": 7,
+      "token": null,
+      "state": "CANCELED"
+    },
+    {
+      "time": 27,
+      "event": "arrival",
+      "job": 8,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 29,
+      "event": "success",
+      "job": 1,
+      "token": [
+        1,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 29,
+      "event": "start",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 3
+    },
+    {
+      "time": 29,
+      "event": "start",
+      "job": 4,
+      "token": [
+        4,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 4
+    },
+    {
+      "time": 30,
+      "event": "crash",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 30,
+      "event": "success",
+      "job": 2,
+      "token": [
+        2,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 31,
+      "event": "arrival",
+      "job": 9,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 32,
+      "event": "physical_finish",
+      "job": 1,
+      "token": [
+        1,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 32,
+      "event": "success",
+      "job": 1,
+      "token": [
+        1,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 33,
+      "event": "recover",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 33,
+      "event": "physical_finish",
+      "job": 4,
+      "token": [
+        4,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 33,
+      "event": "success",
+      "job": 4,
+      "token": [
+        4,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 33,
+      "event": "start",
+      "job": 5,
+      "token": [
+        5,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 8
+    },
+    {
+      "time": 34,
+      "event": "crash",
+      "job": 5,
+      "token": [
+        5,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 34,
+      "event": "retry",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 35,
+      "event": "arrival",
+      "job": 10,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 35,
+      "event": "start",
+      "job": 10,
+      "token": [
+        10,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 8
+    },
+    {
+      "time": 37,
+      "event": "arrival",
+      "job": 11,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 37,
+      "event": "recover",
+      "job": 5,
+      "token": [
+        5,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 37,
+      "event": "start",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 4
+    },
+    {
+      "time": 37,
+      "event": "start",
+      "job": 9,
+      "token": [
+        9,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 6
+    },
+    {
+      "time": 38,
+      "event": "arrival",
+      "job": 12,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 38,
+      "event": "crash",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 38,
+      "event": "retry",
+      "job": 5,
+      "token": [
+        5,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 40,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 40,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 41,
+      "event": "arrival",
+      "job": 13,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 41,
+      "event": "recover",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 41,
+      "event": "start",
+      "job": 6,
+      "token": [
+        6,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 10
+    },
+    {
+      "time": 42,
+      "event": "retry",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 43,
+      "event": "physical_finish",
+      "job": 10,
+      "token": [
+        10,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 43,
+      "event": "physical_finish",
+      "job": 9,
+      "token": [
+        9,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 43,
+      "event": "success",
+      "job": 10,
+      "token": [
+        10,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 43,
+      "event": "success",
+      "job": 9,
+      "token": [
+        9,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 43,
+      "event": "start",
+      "job": 11,
+      "token": [
+        11,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 5
+    },
+    {
+      "time": 45,
+      "event": "arrival",
+      "job": 14,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 48,
+      "event": "physical_finish",
+      "job": 11,
+      "token": [
+        11,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 48,
+      "event": "success",
+      "job": 11,
+      "token": [
+        11,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 48,
+      "event": "start",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 49,
+      "event": "arrival",
+      "job": 15,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 49,
+      "event": "crash",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 49,
+      "event": "success",
+      "job": 5,
+      "token": [
+        5,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 49,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 49,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 51,
+      "event": "physical_finish",
+      "job": 6,
+      "token": [
+        6,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 51,
+      "event": "success",
+      "job": 9,
+      "token": [
+        9,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 51,
+      "event": "success",
+      "job": 6,
+      "token": [
+        6,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 51,
+      "event": "start",
+      "job": 3,
+      "token": [
+        3,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 3
+    },
+    {
+      "time": 52,
+      "event": "arrival",
+      "job": 16,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 52,
+      "event": "crash",
+      "job": 3,
+      "token": [
+        3,
+        3
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 52,
+      "event": "recover",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 52,
+      "event": "start",
+      "job": 14,
+      "token": [
+        14,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 53,
+      "event": "retry",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 55,
+      "event": "recover",
+      "job": 3,
+      "token": [
+        3,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 55,
+      "event": "start",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 56,
+      "event": "arrival",
+      "job": 17,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 56,
+      "event": "crash",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 56,
+      "event": "start",
+      "job": 17,
+      "token": [
+        17,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 13
+    },
+    {
+      "time": 59,
+      "event": "recover",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 59,
+      "event": "start",
+      "job": 12,
+      "token": [
+        12,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 60,
+      "event": "arrival",
+      "job": 18,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 60,
+      "event": "physical_finish",
+      "job": 14,
+      "token": [
+        14,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 60,
+      "event": "success",
+      "job": 14,
+      "token": [
+        14,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 60,
+      "event": "retry",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 60,
+      "event": "start",
+      "job": 13,
+      "token": [
+        13,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 62,
+      "event": "arrival",
+      "job": 19,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 62,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 62,
+      "event": "success",
+      "job": 3,
+      "token": [
+        3,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 63,
+      "event": "cancel",
+      "job": 17,
+      "token": [
+        17,
+        1
+      ],
+      "state": "CANCELING"
+    },
+    {
+      "time": 63,
+      "event": "physical_finish",
+      "job": 12,
+      "token": [
+        12,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 63,
+      "event": "success",
+      "job": 12,
+      "token": [
+        12,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 63,
+      "event": "start",
+      "job": 8,
+      "token": [
+        8,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 64,
+      "event": "success",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 64,
+      "event": "success",
+      "job": 13,
+      "token": [
+        13,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 64,
+      "event": "start",
+      "job": 15,
+      "token": [
+        15,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 65,
+      "event": "stop_ack",
+      "job": 17,
+      "token": [
+        17,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 65,
+      "event": "start",
+      "job": 18,
+      "token": [
+        18,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 15
+    },
+    {
+      "time": 66,
+      "event": "arrival",
+      "job": 20,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 67,
+      "event": "physical_finish",
+      "job": 8,
+      "token": [
+        8,
+        2
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 67,
+      "event": "success",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 67,
+      "event": "success",
+      "job": 8,
+      "token": [
+        8,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 67,
+      "event": "success",
+      "job": 8,
+      "token": [
+        8,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 67,
+      "event": "start",
+      "job": 19,
+      "token": [
+        19,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 6
+    },
+    {
+      "time": 68,
+      "event": "arrival",
+      "job": 21,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 68,
+      "event": "crash",
+      "job": 19,
+      "token": [
+        19,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 68,
+      "event": "physical_finish",
+      "job": 13,
+      "token": [
+        13,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 68,
+      "event": "success",
+      "job": 14,
+      "token": [
+        14,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 68,
+      "event": "success",
+      "job": 13,
+      "token": [
+        13,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 69,
+      "event": "physical_finish",
+      "job": 17,
+      "token": [
+        17,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 69,
+      "event": "success",
+      "job": 17,
+      "token": [
+        17,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 71,
+      "event": "recover",
+      "job": 19,
+      "token": [
+        19,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 71,
+      "event": "success",
+      "job": 12,
+      "token": [
+        12,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 71,
+      "event": "start",
+      "job": 20,
+      "token": [
+        20,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 72,
+      "event": "arrival",
+      "job": 22,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 72,
+      "event": "physical_finish",
+      "job": 15,
+      "token": [
+        15,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 72,
+      "event": "success",
+      "job": 15,
+      "token": [
+        15,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 72,
+      "event": "retry",
+      "job": 19,
+      "token": [
+        19,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 72,
+      "event": "start",
+      "job": 16,
+      "token": [
+        16,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 6
+    },
+    {
+      "time": 73,
+      "event": "arrival",
+      "job": 23,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 75,
+      "event": "physical_finish",
+      "job": 20,
+      "token": [
+        20,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 75,
+      "event": "success",
+      "job": 8,
+      "token": [
+        8,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 75,
+      "event": "success",
+      "job": 20,
+      "token": [
+        20,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 75,
+      "event": "start",
+      "job": 19,
+      "token": [
+        19,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 6
+    },
+    {
+      "time": 77,
+      "event": "arrival",
+      "job": 24,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 78,
+      "event": "physical_finish",
+      "job": 16,
+      "token": [
+        16,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 78,
+      "event": "success",
+      "job": 16,
+      "token": [
+        16,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 78,
+      "event": "start",
+      "job": 22,
+      "token": [
+        22,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 4
+    },
+    {
+      "time": 80,
+      "event": "arrival",
+      "job": 25,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 80,
+      "event": "cancel",
+      "job": 22,
+      "token": [
+        22,
+        1
+      ],
+      "state": "CANCELING"
+    },
+    {
+      "time": 80,
+      "event": "physical_finish",
+      "job": 18,
+      "token": [
+        18,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 80,
+      "event": "success",
+      "job": 15,
+      "token": [
+        15,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 80,
+      "event": "success",
+      "job": 18,
+      "token": [
+        18,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 81,
+      "event": "physical_finish",
+      "job": 19,
+      "token": [
+        19,
+        2
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 81,
+      "event": "success",
+      "job": 19,
+      "token": [
+        19,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 81,
+      "event": "success",
+      "job": 19,
+      "token": [
+        19,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 82,
+      "event": "stop_ack",
+      "job": 22,
+      "token": [
+        22,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 82,
+      "event": "physical_finish",
+      "job": 22,
+      "token": [
+        22,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 82,
+      "event": "success",
+      "job": 22,
+      "token": [
+        22,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 82,
+      "event": "start",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 8
+    },
+    {
+      "time": 83,
+      "event": "arrival",
+      "job": 26,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 83,
+      "event": "crash",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 83,
+      "event": "success",
+      "job": 20,
+      "token": [
+        20,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 84,
+      "event": "arrival",
+      "job": 27,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 86,
+      "event": "arrival",
+      "job": 28,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 86,
+      "event": "recover",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 86,
+      "event": "start",
+      "job": 21,
+      "token": [
+        21,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 11
+    },
+    {
+      "time": 87,
+      "event": "retry",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 89,
+      "event": "success",
+      "job": 19,
+      "token": [
+        19,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 90,
+      "event": "arrival",
+      "job": 29,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 90,
+      "event": "start",
+      "job": 29,
+      "token": [
+        29,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 7
+    },
+    {
+      "time": 94,
+      "event": "arrival",
+      "job": 30,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 94,
+      "event": "start",
+      "job": 30,
+      "token": [
+        30,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 9
+    },
+    {
+      "time": 95,
+      "event": "crash",
+      "job": 30,
+      "token": [
+        30,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 97,
+      "event": "physical_finish",
+      "job": 21,
+      "token": [
+        21,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 97,
+      "event": "physical_finish",
+      "job": 29,
+      "token": [
+        29,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 97,
+      "event": "success",
+      "job": 21,
+      "token": [
+        21,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 97,
+      "event": "success",
+      "job": 29,
+      "token": [
+        29,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 97,
+      "event": "start",
+      "job": 5,
+      "token": [
+        5,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 8
+    },
+    {
+      "time": 98,
+      "event": "arrival",
+      "job": 31,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 98,
+      "event": "recover",
+      "job": 30,
+      "token": [
+        30,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 98,
+      "event": "success",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 98,
+      "event": "success",
+      "job": 5,
+      "token": [
+        5,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 98,
+      "event": "start",
+      "job": 23,
+      "token": [
+        23,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 7
+    },
+    {
+      "time": 98,
+      "event": "start",
+      "job": 28,
+      "token": [
+        28,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 3
+    },
+    {
+      "time": 99,
+      "event": "arrival",
+      "job": 32,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 99,
+      "event": "retry",
+      "job": 30,
+      "token": [
+        30,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 99,
+      "event": "start",
+      "job": 30,
+      "token": [
+        30,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 12
+    },
+    {
+      "time": 100,
+      "event": "crash",
+      "job": 30,
+      "token": [
+        30,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 101,
+      "event": "physical_finish",
+      "job": 28,
+      "token": [
+        28,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 101,
+      "event": "success",
+      "job": 28,
+      "token": [
+        28,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 101,
+      "event": "start",
+      "job": 32,
+      "token": [
+        32,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 8
+    },
+    {
+      "time": 102,
+      "event": "arrival",
+      "job": 33,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 103,
+      "event": "arrival",
+      "job": 34,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 103,
+      "event": "recover",
+      "job": 30,
+      "token": [
+        30,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 104,
+      "event": "retry",
+      "job": 30,
+      "token": [
+        30,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 104,
+      "event": "start",
+      "job": 30,
+      "token": [
+        30,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 2,
+      "duration": 12
+    },
+    {
+      "time": 105,
+      "event": "arrival",
+      "job": 35,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 105,
+      "event": "physical_finish",
+      "job": 5,
+      "token": [
+        5,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 105,
+      "event": "physical_finish",
+      "job": 23,
+      "token": [
+        23,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 105,
+      "event": "success",
+      "job": 29,
+      "token": [
+        29,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 105,
+      "event": "success",
+      "job": 5,
+      "token": [
+        5,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 105,
+      "event": "success",
+      "job": 23,
+      "token": [
+        23,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 105,
+      "event": "start",
+      "job": 26,
+      "token": [
+        26,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 3
+    },
+    {
+      "time": 106,
+      "event": "arrival",
+      "job": 36,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 108,
+      "event": "physical_finish",
+      "job": 26,
+      "token": [
+        26,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 108,
+      "event": "success",
+      "job": 26,
+      "token": [
+        26,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 108,
+      "event": "start",
+      "job": 35,
+      "token": [
+        35,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 5
+    },
+    {
+      "time": 109,
+      "event": "physical_finish",
+      "job": 32,
+      "token": [
+        32,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 109,
+      "event": "success",
+      "job": 28,
+      "token": [
+        28,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 109,
+      "event": "success",
+      "job": 32,
+      "token": [
+        32,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 109,
+      "event": "start",
+      "job": 33,
+      "token": [
+        33,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 110,
+      "event": "arrival",
+      "job": 37,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 111,
+      "event": "success",
+      "job": 30,
+      "token": [
+        30,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 111,
+      "event": "start",
+      "job": 36,
+      "token": [
+        36,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 6
+    },
+    {
+      "time": 112,
+      "event": "arrival",
+      "job": 38,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 113,
+      "event": "physical_finish",
+      "job": 35,
+      "token": [
+        35,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 113,
+      "event": "physical_finish",
+      "job": 33,
+      "token": [
+        33,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 113,
+      "event": "success",
+      "job": 23,
+      "token": [
+        23,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 113,
+      "event": "success",
+      "job": 35,
+      "token": [
+        35,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 113,
+      "event": "success",
+      "job": 33,
+      "token": [
+        33,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 113,
+      "event": "start",
+      "job": 34,
+      "token": [
+        34,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 3
+    },
+    {
+      "time": 114,
+      "event": "arrival",
+      "job": 39,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 116,
+      "event": "arrival",
+      "job": 40,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 116,
+      "event": "physical_finish",
+      "job": 30,
+      "token": [
+        30,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 116,
+      "event": "physical_finish",
+      "job": 34,
+      "token": [
+        34,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 116,
+      "event": "success",
+      "job": 30,
+      "token": [
+        30,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 116,
+      "event": "success",
+      "job": 34,
+      "token": [
+        34,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 117,
+      "event": "physical_finish",
+      "job": 36,
+      "token": [
+        36,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 117,
+      "event": "success",
+      "job": 36,
+      "token": [
+        36,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 117,
+      "event": "start",
+      "job": 38,
+      "token": [
+        38,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 3
+    },
+    {
+      "time": 118,
+      "event": "arrival",
+      "job": 41,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 119,
+      "event": "success",
+      "job": 30,
+      "token": [
+        30,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 120,
+      "event": "physical_finish",
+      "job": 38,
+      "token": [
+        38,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 120,
+      "event": "success",
+      "job": 38,
+      "token": [
+        38,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 120,
+      "event": "start",
+      "job": 40,
+      "token": [
+        40,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 7
+    },
+    {
+      "time": 122,
+      "event": "arrival",
+      "job": 42,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 122,
+      "event": "start",
+      "job": 42,
+      "token": [
+        42,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 5
+    },
+    {
+      "time": 124,
+      "event": "arrival",
+      "job": 43,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 125,
+      "event": "success",
+      "job": 36,
+      "token": [
+        36,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 126,
+      "event": "arrival",
+      "job": 44,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 127,
+      "event": "physical_finish",
+      "job": 40,
+      "token": [
+        40,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 127,
+      "event": "physical_finish",
+      "job": 42,
+      "token": [
+        42,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 127,
+      "event": "success",
+      "job": 40,
+      "token": [
+        40,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 127,
+      "event": "success",
+      "job": 42,
+      "token": [
+        42,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 127,
+      "event": "start",
+      "job": 41,
+      "token": [
+        41,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 127,
+      "event": "start",
+      "job": 43,
+      "token": [
+        43,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 10
+    },
+    {
+      "time": 128,
+      "event": "crash",
+      "job": 41,
+      "token": [
+        41,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 130,
+      "event": "arrival",
+      "job": 45,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 131,
+      "event": "recover",
+      "job": 41,
+      "token": [
+        41,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 131,
+      "event": "start",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 5
+    },
+    {
+      "time": 132,
+      "event": "crash",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 132,
+      "event": "retry",
+      "job": 41,
+      "token": [
+        41,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 134,
+      "event": "arrival",
+      "job": 46,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 135,
+      "event": "recover",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 135,
+      "event": "start",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 136,
+      "event": "crash",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 136,
+      "event": "retry",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 137,
+      "event": "physical_finish",
+      "job": 43,
+      "token": [
+        43,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 137,
+      "event": "success",
+      "job": 43,
+      "token": [
+        43,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 137,
+      "event": "start",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 7
+    },
+    {
+      "time": 138,
+      "event": "arrival",
+      "job": 47,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 138,
+      "event": "crash",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 139,
+      "event": "recover",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 139,
+      "event": "start",
+      "job": 44,
+      "token": [
+        44,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 5
+    },
+    {
+      "time": 140,
+      "event": "retry",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 141,
+      "event": "recover",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 141,
+      "event": "start",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 10
+    },
+    {
+      "time": 142,
+      "event": "arrival",
+      "job": 48,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 142,
+      "event": "crash",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 142,
+      "event": "retry",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 143,
+      "event": "success",
+      "job": 41,
+      "token": [
+        41,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 144,
+      "event": "physical_finish",
+      "job": 44,
+      "token": [
+        44,
+        2
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 144,
+      "event": "success",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 144,
+      "event": "success",
+      "job": 44,
+      "token": [
+        44,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 144,
+      "event": "success",
+      "job": 44,
+      "token": [
+        44,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 144,
+      "event": "start",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 8
+    },
+    {
+      "time": 145,
+      "event": "cancel",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "CANCELING"
+    },
+    {
+      "time": 145,
+      "event": "recover",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 145,
+      "event": "success",
+      "job": 43,
+      "token": [
+        43,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 145,
+      "event": "start",
+      "job": 46,
+      "token": [
+        46,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 7
+    },
+    {
+      "time": 146,
+      "event": "arrival",
+      "job": 49,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 146,
+      "event": "crash",
+      "job": 46,
+      "token": [
+        46,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 146,
+      "event": "retry",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 147,
+      "event": "stop_ack",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 147,
+      "event": "start",
+      "job": 45,
+      "token": [
+        45,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 7
+    },
+    {
+      "time": 149,
+      "event": "recover",
+      "job": 46,
+      "token": [
+        46,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 149,
+      "event": "start",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 10
+    },
+    {
+      "time": 150,
+      "event": "arrival",
+      "job": 50,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 150,
+      "event": "crash",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 150,
+      "event": "retry",
+      "job": 46,
+      "token": [
+        46,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 151,
+      "event": "arrival",
+      "job": 51,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 151,
+      "event": "success",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 151,
+      "event": "success",
+      "job": 41,
+      "token": [
+        41,
+        2
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 152,
+      "event": "arrival",
+      "job": 52,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 152,
+      "event": "physical_finish",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 152,
+      "event": "success",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 152,
+      "event": "success",
+      "job": 46,
+      "token": [
+        46,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 152,
+      "event": "success",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 153,
+      "event": "recover",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 153,
+      "event": "start",
+      "job": 46,
+      "token": [
+        46,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 7
+    },
+    {
+      "time": 154,
+      "event": "arrival",
+      "job": 53,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 154,
+      "event": "crash",
+      "job": 46,
+      "token": [
+        46,
+        3
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 154,
+      "event": "physical_finish",
+      "job": 45,
+      "token": [
+        45,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 154,
+      "event": "success",
+      "job": 45,
+      "token": [
+        45,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 154,
+      "event": "retry",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 154,
+      "event": "start",
+      "job": 47,
+      "token": [
+        47,
+        3
+      ],
+      "state": "RUNNING",
+      "robot": 1,
+      "duration": 12
+    },
+    {
+      "time": 157,
+      "event": "arrival",
+      "job": 54,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 157,
+      "event": "recover",
+      "job": 46,
+      "token": [
+        46,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 157,
+      "event": "start",
+      "job": 50,
+      "token": [
+        50,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 4
+    },
+    {
+      "time": 159,
+      "event": "arrival",
+      "job": 55,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 159,
+      "event": "success",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 159,
+      "event": "success",
+      "job": 47,
+      "token": [
+        47,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 159,
+      "event": "start",
+      "job": 52,
+      "token": [
+        52,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 9
+    },
+    {
+      "time": 160,
+      "event": "success",
+      "job": 41,
+      "token": [
+        41,
+        3
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 160,
+      "event": "success",
+      "job": 46,
+      "token": [
+        46,
+        2
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 161,
+      "event": "arrival",
+      "job": 56,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 161,
+      "event": "physical_finish",
+      "job": 50,
+      "token": [
+        50,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 161,
+      "event": "success",
+      "job": 50,
+      "token": [
+        50,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 161,
+      "event": "start",
+      "job": 51,
+      "token": [
+        51,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 8
+    },
+    {
+      "time": 163,
+      "event": "arrival",
+      "job": 57,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 166,
+      "event": "arrival",
+      "job": 58,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 166,
+      "event": "physical_finish",
+      "job": 47,
+      "token": [
+        47,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 166,
+      "event": "success",
+      "job": 47,
+      "token": [
+        47,
+        3
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 167,
+      "event": "arrival",
+      "job": 59,
+      "token": null,
+      "state": "WAITING"
+    },
+    {
+      "time": 167,
+      "event": "success",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 167,
+      "event": "success",
+      "job": 47,
+      "token": [
+        47,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 168,
+      "event": "physical_finish",
+      "job": 52,
+      "token": [
+        52,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 168,
+      "event": "success",
+      "job": 46,
+      "token": [
+        46,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 168,
+      "event": "success",
+      "job": 46,
+      "token": [
+        46,
+        3
+      ],
+      "state": "FAILED"
+    },
+    {
+      "time": 168,
+      "event": "success",
+      "job": 52,
+      "token": [
+        52,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 168,
+      "event": "start",
+      "job": 53,
+      "token": [
+        53,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 6
+    },
+    {
+      "time": 169,
+      "event": "crash",
+      "job": 53,
+      "token": [
+        53,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 169,
+      "event": "physical_finish",
+      "job": 51,
+      "token": [
+        51,
+        1
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 169,
+      "event": "success",
+      "job": 51,
+      "token": [
+        51,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 169,
+      "event": "start",
+      "job": 58,
+      "token": [
+        58,
+        1
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 10
+    },
+    {
+      "time": 172,
+      "event": "recover",
+      "job": 53,
+      "token": [
+        53,
+        1
+      ],
+      "state": "RECOVERING"
+    },
+    {
+      "time": 173,
+      "event": "retry",
+      "job": 53,
+      "token": [
+        53,
+        1
+      ],
+      "state": "WAITING"
+    },
+    {
+      "time": 174,
+      "event": "cancel",
+      "job": 48,
+      "token": null,
+      "state": "CANCELED"
+    },
+    {
+      "time": 174,
+      "event": "cancel",
+      "job": 58,
+      "token": [
+        58,
+        1
+      ],
+      "state": "CANCELING"
+    },
+    {
+      "time": 176,
+      "event": "stop_ack",
+      "job": 58,
+      "token": [
+        58,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 176,
+      "event": "start",
+      "job": 53,
+      "token": [
+        53,
+        2
+      ],
+      "state": "RUNNING",
+      "robot": 0,
+      "duration": 6
+    },
+    {
+      "time": 177,
+      "event": "success",
+      "job": 51,
+      "token": [
+        51,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 179,
+      "event": "physical_finish",
+      "job": 58,
+      "token": [
+        58,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 179,
+      "event": "success",
+      "job": 58,
+      "token": [
+        58,
+        1
+      ],
+      "state": "CANCELED"
+    },
+    {
+      "time": 182,
+      "event": "physical_finish",
+      "job": 53,
+      "token": [
+        53,
+        2
+      ],
+      "state": "RUNNING"
+    },
+    {
+      "time": 182,
+      "event": "success",
+      "job": 53,
+      "token": [
+        53,
+        1
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 182,
+      "event": "success",
+      "job": 53,
+      "token": [
+        53,
+        2
+      ],
+      "state": "SUCCEEDED"
+    },
+    {
+      "time": 190,
+      "event": "success",
+      "job": 53,
+      "token": [
+        53,
+        2
+      ],
+      "state": "SUCCEEDED"
+    }
+  ],
+  "physical_intervals": [
+    {
+      "token": [
+        0,
+        1
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 0,
+      "stop": 11,
+      "completed": true
+    },
+    {
+      "token": [
+        1,
+        1
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 11,
+      "stop": 12,
+      "completed": false
+    },
+    {
+      "token": [
+        2,
+        1
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 15,
+      "stop": 22,
+      "completed": true
+    },
+    {
+      "token": [
+        3,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 29,
+      "stop": 30,
+      "completed": false
+    },
+    {
+      "token": [
+        1,
+        2
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 22,
+      "stop": 32,
+      "completed": true
+    },
+    {
+      "token": [
+        4,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 29,
+      "stop": 33,
+      "completed": true
+    },
+    {
+      "token": [
+        5,
+        1
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 33,
+      "stop": 34,
+      "completed": false
+    },
+    {
+      "token": [
+        3,
+        2
+      ],
+      "robot": 2,
+      "kind": "move",
+      "start": 37,
+      "stop": 38,
+      "completed": false
+    },
+    {
+      "token": [
+        10,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 35,
+      "stop": 43,
+      "completed": true
+    },
+    {
+      "token": [
+        9,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 37,
+      "stop": 43,
+      "completed": true
+    },
+    {
+      "token": [
+        11,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 43,
+      "stop": 48,
+      "completed": true
+    },
+    {
+      "token": [
+        13,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 48,
+      "stop": 49,
+      "completed": false
+    },
+    {
+      "token": [
+        6,
+        1
+      ],
+      "robot": 2,
+      "kind": "move",
+      "start": 41,
+      "stop": 51,
+      "completed": true
+    },
+    {
+      "token": [
+        3,
+        3
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 51,
+      "stop": 52,
+      "completed": false
+    },
+    {
+      "token": [
+        8,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 55,
+      "stop": 56,
+      "completed": false
+    },
+    {
+      "token": [
+        14,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 52,
+      "stop": 60,
+      "completed": true
+    },
+    {
+      "token": [
+        12,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 59,
+      "stop": 63,
+      "completed": true
+    },
+    {
+      "token": [
+        17,
+        1
+      ],
+      "robot": 2,
+      "kind": "local",
+      "start": 56,
+      "stop": 65,
+      "completed": false
+    },
+    {
+      "token": [
+        8,
+        2
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 63,
+      "stop": 67,
+      "completed": true
+    },
+    {
+      "token": [
+        19,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 67,
+      "stop": 68,
+      "completed": false
+    },
+    {
+      "token": [
+        13,
+        2
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 60,
+      "stop": 68,
+      "completed": true
+    },
+    {
+      "token": [
+        15,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 64,
+      "stop": 72,
+      "completed": true
+    },
+    {
+      "token": [
+        20,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 71,
+      "stop": 75,
+      "completed": true
+    },
+    {
+      "token": [
+        16,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 72,
+      "stop": 78,
+      "completed": true
+    },
+    {
+      "token": [
+        18,
+        1
+      ],
+      "robot": 2,
+      "kind": "local",
+      "start": 65,
+      "stop": 80,
+      "completed": true
+    },
+    {
+      "token": [
+        19,
+        2
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 75,
+      "stop": 81,
+      "completed": true
+    },
+    {
+      "token": [
+        22,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 78,
+      "stop": 82,
+      "completed": false
+    },
+    {
+      "token": [
+        5,
+        2
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 82,
+      "stop": 83,
+      "completed": false
+    },
+    {
+      "token": [
+        30,
+        1
+      ],
+      "robot": 1,
+      "kind": "local",
+      "start": 94,
+      "stop": 95,
+      "completed": false
+    },
+    {
+      "token": [
+        21,
+        1
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 86,
+      "stop": 97,
+      "completed": true
+    },
+    {
+      "token": [
+        29,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 90,
+      "stop": 97,
+      "completed": true
+    },
+    {
+      "token": [
+        30,
+        2
+      ],
+      "robot": 2,
+      "kind": "local",
+      "start": 99,
+      "stop": 100,
+      "completed": false
+    },
+    {
+      "token": [
+        28,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 98,
+      "stop": 101,
+      "completed": true
+    },
+    {
+      "token": [
+        5,
+        3
+      ],
+      "robot": 2,
+      "kind": "transfer",
+      "start": 97,
+      "stop": 105,
+      "completed": true
+    },
+    {
+      "token": [
+        23,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 98,
+      "stop": 105,
+      "completed": true
+    },
+    {
+      "token": [
+        26,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 105,
+      "stop": 108,
+      "completed": true
+    },
+    {
+      "token": [
+        32,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 101,
+      "stop": 109,
+      "completed": true
+    },
+    {
+      "token": [
+        35,
+        1
+      ],
+      "robot": 1,
+      "kind": "local",
+      "start": 108,
+      "stop": 113,
+      "completed": true
+    },
+    {
+      "token": [
+        33,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 109,
+      "stop": 113,
+      "completed": true
+    },
+    {
+      "token": [
+        30,
+        3
+      ],
+      "robot": 2,
+      "kind": "local",
+      "start": 104,
+      "stop": 116,
+      "completed": true
+    },
+    {
+      "token": [
+        34,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 113,
+      "stop": 116,
+      "completed": true
+    },
+    {
+      "token": [
+        36,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 111,
+      "stop": 117,
+      "completed": true
+    },
+    {
+      "token": [
+        38,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 117,
+      "stop": 120,
+      "completed": true
+    },
+    {
+      "token": [
+        40,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 120,
+      "stop": 127,
+      "completed": true
+    },
+    {
+      "token": [
+        42,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 122,
+      "stop": 127,
+      "completed": true
+    },
+    {
+      "token": [
+        41,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 127,
+      "stop": 128,
+      "completed": false
+    },
+    {
+      "token": [
+        44,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 131,
+      "stop": 132,
+      "completed": false
+    },
+    {
+      "token": [
+        41,
+        2
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 135,
+      "stop": 136,
+      "completed": false
+    },
+    {
+      "token": [
+        43,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 127,
+      "stop": 137,
+      "completed": true
+    },
+    {
+      "token": [
+        46,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 137,
+      "stop": 138,
+      "completed": false
+    },
+    {
+      "token": [
+        47,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 141,
+      "stop": 142,
+      "completed": false
+    },
+    {
+      "token": [
+        44,
+        2
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 139,
+      "stop": 144,
+      "completed": true
+    },
+    {
+      "token": [
+        46,
+        2
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 145,
+      "stop": 146,
+      "completed": false
+    },
+    {
+      "token": [
+        41,
+        3
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 144,
+      "stop": 147,
+      "completed": false
+    },
+    {
+      "token": [
+        47,
+        2
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 149,
+      "stop": 150,
+      "completed": false
+    },
+    {
+      "token": [
+        46,
+        3
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 153,
+      "stop": 154,
+      "completed": false
+    },
+    {
+      "token": [
+        45,
+        1
+      ],
+      "robot": 1,
+      "kind": "inspect",
+      "start": 147,
+      "stop": 154,
+      "completed": true
+    },
+    {
+      "token": [
+        50,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 157,
+      "stop": 161,
+      "completed": true
+    },
+    {
+      "token": [
+        47,
+        3
+      ],
+      "robot": 1,
+      "kind": "local",
+      "start": 154,
+      "stop": 166,
+      "completed": true
+    },
+    {
+      "token": [
+        52,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 159,
+      "stop": 168,
+      "completed": true
+    },
+    {
+      "token": [
+        53,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 168,
+      "stop": 169,
+      "completed": false
+    },
+    {
+      "token": [
+        51,
+        1
+      ],
+      "robot": 0,
+      "kind": "move",
+      "start": 161,
+      "stop": 169,
+      "completed": true
+    },
+    {
+      "token": [
+        58,
+        1
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 169,
+      "stop": 176,
+      "completed": false
+    },
+    {
+      "token": [
+        53,
+        2
+      ],
+      "robot": 0,
+      "kind": "local",
+      "start": 176,
+      "stop": 182,
+      "completed": true
+    }
+  ],
+  "reclaims": [
+    {
+      "token": [
+        1,
+        1
+      ],
+      "kind": "crash",
+      "requested": 12,
+      "released": 15,
+      "delay": 3
+    },
+    {
+      "token": [
+        3,
+        1
+      ],
+      "kind": "crash",
+      "requested": 30,
+      "released": 33,
+      "delay": 3
+    },
+    {
+      "token": [
+        5,
+        1
+      ],
+      "kind": "crash",
+      "requested": 34,
+      "released": 37,
+      "delay": 3
+    },
+    {
+      "token": [
+        3,
+        2
+      ],
+      "kind": "crash",
+      "requested": 38,
+      "released": 41,
+      "delay": 3
+    },
+    {
+      "token": [
+        13,
+        1
+      ],
+      "kind": "crash",
+      "requested": 49,
+      "released": 52,
+      "delay": 3
+    },
+    {
+      "token": [
+        3,
+        3
+      ],
+      "kind": "crash",
+      "requested": 52,
+      "released": 55,
+      "delay": 3
+    },
+    {
+      "token": [
+        8,
+        1
+      ],
+      "kind": "crash",
+      "requested": 56,
+      "released": 59,
+      "delay": 3
+    },
+    {
+      "token": [
+        17,
+        1
+      ],
+      "kind": "cancel",
+      "requested": 63,
+      "released": 65,
+      "delay": 2
+    },
+    {
+      "token": [
+        19,
+        1
+      ],
+      "kind": "crash",
+      "requested": 68,
+      "released": 71,
+      "delay": 3
+    },
+    {
+      "token": [
+        22,
+        1
+      ],
+      "kind": "cancel",
+      "requested": 80,
+      "released": 82,
+      "delay": 2
+    },
+    {
+      "token": [
+        5,
+        2
+      ],
+      "kind": "crash",
+      "requested": 83,
+      "released": 86,
+      "delay": 3
+    },
+    {
+      "token": [
+        30,
+        1
+      ],
+      "kind": "crash",
+      "requested": 95,
+      "released": 98,
+      "delay": 3
+    },
+    {
+      "token": [
+        30,
+        2
+      ],
+      "kind": "crash",
+      "requested": 100,
+      "released": 103,
+      "delay": 3
+    },
+    {
+      "token": [
+        41,
+        1
+      ],
+      "kind": "crash",
+      "requested": 128,
+      "released": 131,
+      "delay": 3
+    },
+    {
+      "token": [
+        44,
+        1
+      ],
+      "kind": "crash",
+      "requested": 132,
+      "released": 135,
+      "delay": 3
+    },
+    {
+      "token": [
+        41,
+        2
+      ],
+      "kind": "crash",
+      "requested": 136,
+      "released": 139,
+      "delay": 3
+    },
+    {
+      "token": [
+        46,
+        1
+      ],
+      "kind": "crash",
+      "requested": 138,
+      "released": 141,
+      "delay": 3
+    },
+    {
+      "token": [
+        47,
+        1
+      ],
+      "kind": "crash",
+      "requested": 142,
+      "released": 145,
+      "delay": 3
+    },
+    {
+      "token": [
+        41,
+        3
+      ],
+      "kind": "cancel",
+      "requested": 145,
+      "released": 147,
+      "delay": 2
+    },
+    {
+      "token": [
+        46,
+        2
+      ],
+      "kind": "crash",
+      "requested": 146,
+      "released": 149,
+      "delay": 3
+    },
+    {
+      "token": [
+        47,
+        2
+      ],
+      "kind": "crash",
+      "requested": 150,
+      "released": 153,
+      "delay": 3
+    },
+    {
+      "token": [
+        46,
+        3
+      ],
+      "kind": "crash",
+      "requested": 154,
+      "released": 157,
+      "delay": 3
+    },
+    {
+      "token": [
+        53,
+        1
+      ],
+      "kind": "crash",
+      "requested": 169,
+      "released": 172,
+      "delay": 3
+    },
+    {
+      "token": [
+        58,
+        1
+      ],
+      "kind": "cancel",
+      "requested": 174,
+      "released": 176,
+      "delay": 2
+    }
+  ],
+  "final_states": {
+    "0": "SUCCEEDED",
+    "1": "SUCCEEDED",
+    "2": "SUCCEEDED",
+    "3": "FAILED",
+    "4": "SUCCEEDED",
+    "5": "SUCCEEDED",
+    "6": "SUCCEEDED",
+    "7": "CANCELED",
+    "8": "SUCCEEDED",
+    "9": "SUCCEEDED",
+    "10": "SUCCEEDED",
+    "11": "SUCCEEDED",
+    "12": "SUCCEEDED",
+    "13": "SUCCEEDED",
+    "14": "SUCCEEDED",
+    "15": "SUCCEEDED",
+    "16": "SUCCEEDED",
+    "17": "CANCELED",
+    "18": "SUCCEEDED",
+    "19": "SUCCEEDED",
+    "20": "SUCCEEDED",
+    "21": "SUCCEEDED",
+    "22": "CANCELED",
+    "23": "SUCCEEDED",
+    "24": "WAITING",
+    "25": "WAITING",
+    "26": "SUCCEEDED",
+    "27": "WAITING",
+    "28": "SUCCEEDED",
+    "29": "SUCCEEDED",
+    "30": "SUCCEEDED",
+    "31": "WAITING",
+    "32": "SUCCEEDED",
+    "33": "SUCCEEDED",
+    "34": "SUCCEEDED",
+    "35": "SUCCEEDED",
+    "36": "SUCCEEDED",
+    "37": "WAITING",
+    "38": "SUCCEEDED",
+    "39": "WAITING",
+    "40": "SUCCEEDED",
+    "41": "CANCELED",
+    "42": "SUCCEEDED",
+    "43": "SUCCEEDED",
+    "44": "SUCCEEDED",
+    "45": "SUCCEEDED",
+    "46": "FAILED",
+    "47": "SUCCEEDED",
+    "48": "CANCELED",
+    "49": "WAITING",
+    "50": "SUCCEEDED",
+    "51": "SUCCEEDED",
+    "52": "SUCCEEDED",
+    "53": "SUCCEEDED",
+    "54": "WAITING",
+    "55": "WAITING",
+    "56": "WAITING",
+    "57": "WAITING",
+    "58": "CANCELED",
+    "59": "WAITING"
+  },
+  "success_writes": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 0,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 0,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1,
+    "17": 0,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 0,
+    "23": 1,
+    "24": 0,
+    "25": 0,
+    "26": 1,
+    "27": 0,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 0,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 0,
+    "38": 1,
+    "39": 0,
+    "40": 1,
+    "41": 0,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 0,
+    "47": 1,
+    "48": 0,
+    "49": 0,
+    "50": 1,
+    "51": 1,
+    "52": 1,
+    "53": 1,
+    "54": 0,
+    "55": 0,
+    "56": 0,
+    "57": 0,
+    "58": 0,
+    "59": 0
+  }
+}

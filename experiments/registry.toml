@@ -12,8 +12,10 @@ evidence_commit = "e93836dd639d3f04f9b4bf0ef26554fa9fa956ae"
 [[experiment]]
 id = "RRL-002"
 title = "Robot runtime：取消、重試與資源釋放"
-status = "planned"
+status = "active"
 path = "robotics/robot-runtime"
+protocol = "robotics/robot-runtime/protocol.md"
+results = "experiments/results/RRL-002"
 
 [[experiment]]
 id = "SYS-001"
