@@ -1,0 +1,11 @@
+{
+  "profile": "baseline",
+  "scientific_evidence": true,
+  "fenced_runs": 500,
+  "H_Safety": true,
+  "H_Recovery": true,
+  "H_Control": true,
+  "safety_failing_runs": 0,
+  "recovery_failing_runs": 0,
+  "note": "Finite model checks, not a reliability estimate, formal proof, or physical exactly-once guarantee."
+}

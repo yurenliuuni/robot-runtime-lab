@@ -1,0 +1,11 @@
+{
+  "profile": "smoke",
+  "scientific_evidence": false,
+  "fenced_runs": 10,
+  "H_Safety": true,
+  "H_Recovery": true,
+  "H_Control": true,
+  "safety_failing_runs": 0,
+  "recovery_failing_runs": 0,
+  "note": "Finite model checks, not a reliability estimate, formal proof, or physical exactly-once guarantee."
+}

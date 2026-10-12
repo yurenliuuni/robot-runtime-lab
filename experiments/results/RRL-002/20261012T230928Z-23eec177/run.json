@@ -1,0 +1,66 @@
+{
+  "run_id": "20261012T230928Z-23eec177",
+  "experiment_id": "RRL-002",
+  "profile": "smoke",
+  "purpose": "pipeline-validation",
+  "git": {
+    "commit": "0c45bc7387b45584f93785a0a5174475bc6a3eb3",
+    "dirty": true
+  },
+  "seeds": [
+    400,
+    401
+  ],
+  "source_sha256": {
+    "robotics/robot-runtime/experiment.py": "59f26604e68f26329774f9b777c0bee828815696cdfbbf6d7fdd6fdb2721cd54",
+    "robotics/robot-runtime/runtime.py": "0b81bed754b3b3ceb9ae4cfd0e30b8769d8af2a1c49f422a0657e7472f4e2ec7",
+    "robotics/robot-runtime/protocol.md": "a9c3a63b6c99af9f00a2a15624167bff0e63e0ee1765abff74d6b97816381e0c",
+    "robotics/resource-scheduling/robot_runtime_lab/__init__.py": "fb94a3b06b8dc87eec5608ee33e57350e9f5d09ea36ba71d0043edf1d652b34c",
+    "robotics/resource-scheduling/robot_runtime_lab/experiment.py": "f834d7dea72da0d71b6f8d7782f22aab2773129d81e6b4be2457866aa544f569",
+    "robotics/resource-scheduling/robot_runtime_lab/simulator.py": "e3671b966910b58f2bc33a51cf5bb9c4f77181cc15c546c84ea32d3769b1c3d5",
+    "scripts/lab.py": "38741f701afbcac1b0b73b263f61c4010ec876f594a2436d51f2c9d7ed548be0",
+    "experiments/registry.toml": "ea538d8e4ba6445701e1e5b38a615e51495ef49769f97c16a093b8013abc4acd"
+  },
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "experiment.py",
+    "--profile",
+    "smoke",
+    "--out",
+    "/Users/a0/.codex/.chatgpt-projects/g-p-6acc28d3c7008191b5b97a90fa2aee60/research-lab/experiments/results/RRL-002/20261012T230928Z-23eec177/artifacts"
+  ],
+  "cwd": "/Users/a0/.codex/.chatgpt-projects/g-p-6acc28d3c7008191b5b97a90fa2aee60/research-lab/robotics/robot-runtime",
+  "started_at": "2026-10-12T23:09:29.030771+00:00",
+  "status": "completed",
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "exit_code": 0,
+  "finished_at": "2026-10-12T23:09:29.608392+00:00",
+  "wall_seconds": 0.25484800001140684,
+  "output_sha256": {
+    "artifacts/assessment.json": "b04db0a100a2efa6e4451979a135052999bf6070f18e98d548b0a0c4e60ae0b1",
+    "artifacts/clean-controls.csv": "e38dbc0c4c6c0ac66779b4d39f2a1580fed49aed520a1fe8cb5344aaafc0f933",
+    "artifacts/manifest.json": "008387a00b2b2230a5761f158409631715343477e5a0f9b06d7fda50ac0a1185",
+    "artifacts/report.md": "4f835a24b81678863b2cc13b611fd0bddab93cf49602535b2ed1785301e55ec0",
+    "artifacts/runs.csv": "2f77399e70523fc1b675d3ef19ce03f4314cae83568e84255a967cc663935790",
+    "artifacts/summary.csv": "73be9f51a931dc93e4f1ca0ebc473d9e63792c02955da77dcdbabfc1275bd17e",
+    "artifacts/traces/cancel-cleanup.json": "54520384334e75e8e7bb31c83738f1e752e4221018f6b2fb9571c8feddd90dca",
+    "artifacts/traces/cancel-fenced.json": "84d132150352cd3d9a80f54dc5ad77053184fafb0a77665bf8a09770aed9b9c3",
+    "artifacts/traces/cancel-terminal_guard.json": "84d132150352cd3d9a80f54dc5ad77053184fafb0a77665bf8a09770aed9b9c3",
+    "artifacts/traces/clean-cleanup.json": "9e2d1d396a5311d0a53cabb4d4ab9fed3a7ac1f5140f367909718292fca61e40",
+    "artifacts/traces/clean-fenced.json": "9e2d1d396a5311d0a53cabb4d4ab9fed3a7ac1f5140f367909718292fca61e40",
+    "artifacts/traces/clean-terminal_guard.json": "9e2d1d396a5311d0a53cabb4d4ab9fed3a7ac1f5140f367909718292fca61e40",
+    "artifacts/traces/crash-cleanup.json": "bca986e2f6e5f83c5b0c97f3fc55382236fd8ab09067ba5f074faf61859aa31a",
+    "artifacts/traces/crash-fenced.json": "42a5ee504587b7c212b34d1c5af1cfc706496147a63fd6a6f493152ed0eb3040",
+    "artifacts/traces/crash-terminal_guard.json": "e2dc05c70915774b16bed62731d9a229e5ea72c386195ad302328290dad3dc1a",
+    "artifacts/traces/duplicate-cleanup.json": "c1f34e039262edee244b5898e06ebd384bae98884a3be55bd11a92036b9a82cb",
+    "artifacts/traces/duplicate-fenced.json": "e10abdf46ded48d9b270186f6b145c194cd98e0b855eb7303287387e4cba1a4f",
+    "artifacts/traces/duplicate-terminal_guard.json": "e10abdf46ded48d9b270186f6b145c194cd98e0b855eb7303287387e4cba1a4f",
+    "artifacts/traces/mixed-cleanup.json": "92bce0893e3ed4d610b19d9495b63fcb74e4692ab0cdb1d9262627f384bce78b",
+    "artifacts/traces/mixed-fenced.json": "54e442816a91f23978e71670fe11d20a49bbde5600cf57e5390c40649ba489df",
+    "artifacts/traces/mixed-terminal_guard.json": "248b88a3c960abb2221c98dd23d9e3a52926cb3e79047940a28d3b49b6618228",
+    "artifacts/workloads.jsonl": "221db1352758779460a479bc996c4aabc097ae902a669d16a45899dbbcdb08bd",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "ae19af709fd84225142d129e7e3476e45326b871710694498a885c7443275164"
+  }
+}

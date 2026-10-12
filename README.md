@@ -23,7 +23,7 @@ Python 3.11+，只用標準函式庫。以上命令在本目錄執行。`smoke` 
 research-lab/
 ├── robotics/
 │   ├── resource-scheduling/   # RRL-001，已完成的實驗與原始證據
-│   ├── robot-runtime/        # RRL-002，planned
+│   ├── robot-runtime/        # RRL-002，measured
 │   └── simulation/           # 共用模型界線與模擬驗證原則
 ├── computer-systems/
 │   ├── process-scheduling/   # SYS-001，measured
@@ -54,7 +54,7 @@ research-lab/
 
 [RRL-001 結果](robotics/resource-scheduling/docs/findings.md)：主要情境 resource-aware v1 相對 FIFO，吞吐量 +5.63%、等待 −17.66%，未達預設 throughput +10% 門檻。v2 失敗，v3 在新 seeds 上改善 v2，但相對 v1 有期限、吞吐量與等待的取捨。
 
-SYS-001 已完成 6,480 次正式模擬：[機制拆解結果](computer-systems/process-scheduling/findings.md)。三個主要假說皆未在兩批同時達標；保留方向、幅度與代價。下一個候選是 RRL-002 的取消、重試與資源釋放，尚未執行。
+SYS-001 已完成 6,480 次正式模擬：[機制拆解結果](computer-systems/process-scheduling/findings.md)。三個主要假說皆未在兩批同時達標；保留方向、幅度與代價。RRL-002也已完成3,000次正式模擬：[生命週期結果](robotics/robot-runtime/findings.md)，fenced在固定模型內通過三項門檻。後續候選為controller restart與持久化effect ledger，尚未執行。
 
 ## 分工與日常流程
 

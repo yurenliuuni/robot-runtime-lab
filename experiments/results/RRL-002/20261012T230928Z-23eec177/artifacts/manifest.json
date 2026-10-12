@@ -1,0 +1,36 @@
+{
+  "experiment": "RRL-002",
+  "profile": "smoke",
+  "seeds": [
+    400,
+    401
+  ],
+  "scenarios": [
+    "clean",
+    "duplicate",
+    "crash",
+    "cancel",
+    "mixed"
+  ],
+  "policies": [
+    "cleanup",
+    "terminal_guard",
+    "fenced"
+  ],
+  "runs": 30,
+  "jobs_per_run": 60,
+  "observation_limit": 5000,
+  "throughput_horizon": 480,
+  "workload_sha256": {
+    "clean/400": "ea20f57876296674e65d0408495d259d6096f5ddf0cd6064ceb401c13bdf2559",
+    "clean/401": "d0d6cb1db4a7a41051decf5917eb8c02917049426025718af0bf77b9067e3a5e",
+    "duplicate/400": "d05eb1802d8679af60e4f44c6126b3b122b29fc704ad52c5e53c415f772e7cda",
+    "duplicate/401": "b39f401b1f51675643a356b655dc7ebbbba21a02d6277420174b87aabfbf78e9",
+    "crash/400": "b632d730682d599ddf36927c9ca39af5edd24b3dd9160a41d8a5703e86da7d52",
+    "crash/401": "2195f8c833e31159ed73ca832a62da5f94d0af054678c84470a5706f4aef0ce3",
+    "cancel/400": "efcac462d90299d0f81bcd60e7f639975b091acfe17c3722e64497c6b888611e",
+    "cancel/401": "2584324380c9941bacfa18c8987c5cbd444c665fddb306aec632bbd3d586d0b5",
+    "mixed/400": "a991c736177a21cf5a5515eff5189d8ecbd55ff4aef2ac2a4051ce254f7cdff4",
+    "mixed/401": "e87402fb4b55047f0557ed47191343f52966a17b7141bde7ec0d90e07d635c51"
+  }
+}
