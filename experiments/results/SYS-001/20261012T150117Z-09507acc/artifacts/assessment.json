@@ -1,0 +1,44 @@
+{
+  "profile": "validation",
+  "scientific_evidence": true,
+  "primary": [
+    {
+      "hypothesis": "H-M",
+      "metric": "throughput_per_hour",
+      "relative_change": 0.007616487455197163,
+      "difference": 0.14166666666666666,
+      "ci": [
+        -0.05,
+        0.35
+      ],
+      "throughput_gate": true,
+      "passed": false
+    },
+    {
+      "hypothesis": "H-S",
+      "metric": "average_wait",
+      "relative_change": -0.10139673171594332,
+      "difference": -8.705982824254898,
+      "ci": [
+        -14.065523500828204,
+        -4.784415678352989
+      ],
+      "throughput_gate": true,
+      "passed": true
+    },
+    {
+      "hypothesis": "H-A",
+      "metric": "p95_wait",
+      "relative_change": -0.08795957908052943,
+      "difference": -35.51126502582676,
+      "ci": [
+        -57.154334121562485,
+        -13.15303311304155
+      ],
+      "throughput_gate": true,
+      "passed": false
+    }
+  ],
+  "interval_confidence": 0.9916666666666667,
+  "bootstrap_resamples": 12000
+}

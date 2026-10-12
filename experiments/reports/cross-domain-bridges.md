@@ -17,3 +17,7 @@
 較低材料單價可能伴隨較長工期、設備需求或失敗機率。XDS-001 應把物理性能、施工限制、成本與付款時點連在一個明確決策情境中，再做敏感度分析。
 
 目前沒有金融或法律結論；以上都是下一個 protocol 的研究方向。原始量測來源：[RRL-001 findings](../../robotics/resource-scheduling/docs/findings.md)。
+
+## SYS-001 更新
+
+機制拆解已完成，三個主要假說未在兩批同時達門檻；aging 的尾端等待收益伴隨平均等待與 deadline 代價。[新證據](../../computer-systems/process-scheduling/findings.md) 不構成施工或 CPU 排程的外部驗證。
