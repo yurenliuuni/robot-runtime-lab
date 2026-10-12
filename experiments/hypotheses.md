@@ -1,6 +1,6 @@
 # 假說登錄｜Hypotheses
 
-2026-10-12 整合。保留原門檻，不因觀察結果變動。RRL-001 與 SYS-001 已有量測證據；其餘為候選問題，執行前須完成各自 protocol。
+2026-10-12 整合。保留原門檻，不因觀察結果變動。RRL-001、SYS-001 與 RRL-002 已有量測證據；其餘為候選問題，執行前須完成各自 protocol。
 
 ## RRL-001 / H1 — 未達工程門檻
 
@@ -29,9 +29,12 @@ v3 相對 v1 則 throughput −1.89%、waiting +6.796 min、miss rate −2.296 p
 
 方向改善不等於工程門檻穩定達成；未因結果更改門檻。
 
+## RRL-002 — 模型內Safety / Recovery / Control皆通過兩批
+
+[Protocol](../robotics/robot-runtime/protocol.md)與[結果](../robotics/robot-runtime/findings.md)。3,000正式runs中fenced佔1,000，皆零預設違規；crash回收≤3min、running cancel≤2min；clean控制相同。terminal guard無法辨別舊attempt回覆。這是有限模型測試，不是實機安全或實體exactly-once保證。
+
 ## 尚未執行的候選問題
 
-- RRL-002：加入 fault / cancel / retry 後，能否保證每件工作只完成一次且資源最終釋放？先建立明確 failure model。
 - SYS-002：相同 memory trace 下，壓力感知回收能否減少 tail latency，且不增加總記憶體上限？先定 workload 與公平比較。
 - AI-001 / CON-001：擷取的欄位附上頁碼與證據片段後，人工核驗錯誤的能力是否提高？需要人工標註與分離的測試文件。
 - CON-002：有前置關係、班次與不可搶占工作的 resource-constrained scheduling，能否減少工期且不提高延誤風險？先以合成施工案例測試。

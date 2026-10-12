@@ -30,3 +30,9 @@
 證據：SYS-001 三個主要假說皆未在兩批同時達標。Aging 降低 p95，但平均等待與 deadline miss 變差。
 決策：不事後調權重或選 scenario 宣稱成功；先明定目標，再以新 protocol 拆解 max-cardinality 或研究 RRL-002 資源生命週期。
 重新檢討：取得新 workload、故障模型或實際需求權重時。詳見 [SYS-001 findings](../computer-systems/process-scheduling/findings.md)。
+
+## D-006｜2026-10-13｜將工作與嘗試的identity分開
+
+證據：RRL-002兩批fenced共1,000runs全數通過；terminal_guard仍接受舊attempt，造成wrong release及physical overlap。
+決策：後续runtime保留停止確認、terminal guard與attempt ownership；不可僅用job狀態去重。下一個候選為controller restart/persistent effect ledger，需要新protocol，不視本次為exactly-once物理保證。
+重新檢討：加入不可靠stop ack、網路分割或不可逆副作用時。[完整證據](../robotics/robot-runtime/findings.md)。
