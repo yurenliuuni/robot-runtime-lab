@@ -1,0 +1,4457 @@
+[
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.016666666666666666,
+    "ci95": [
+      0.0,
+      0.0375
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.28036544352925685,
+    "ci95": [
+      -0.4212293714834766,
+      -0.15252066154266902
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.0003073238379517729,
+    "ci95": [
+      -0.0017558758410212835,
+      0.0009259084071868669
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.00011217798809004345,
+    "ci95": [
+      -0.0003609203009694806,
+      0.0008000120177808267
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0002795950239163588,
+    "ci95": [
+      -0.0009265518890428444,
+      0.00024456794364563126
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.020780026914523124,
+    "ci95": [
+      -0.03429123766663023,
+      -0.008892617123648668
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -1.9395853282945101,
+    "ci95": [
+      -3.594376302622982,
+      -0.5329403647869083
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 3.7749983515392542,
+    "ci95": [
+      0.5591855270274263,
+      7.5010525651602205
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.13333333333333333,
+    "ci95": [
+      -0.3,
+      0
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.016666666666666666,
+    "ci95": [
+      0.0,
+      0.0375
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.1987181143557246,
+    "ci95": [
+      -0.30865145747815637,
+      -0.10072028919013838
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.00030732383795177104,
+    "ci95": [
+      -0.0017558758410212835,
+      0.0009259084071868688
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.0002152806165879521,
+    "ci95": [
+      -0.00014093352494287114,
+      0.0008383877901824951
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 2.142577670236993e-05,
+    "ci95": [
+      -0.00032354703223887263,
+      0.0003189013934254988
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.00786561866399658,
+    "ci95": [
+      -0.016723623679540472,
+      0.00040353689368467495
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -1.095701347219895,
+    "ci95": [
+      -2.2549137742432945,
+      -0.005479574504488482
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 0.7966920217601163,
+    "ci95": [
+      -0.6479140448564834,
+      2.329699525358998
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.13333333333333333,
+    "ci95": [
+      -0.3,
+      0
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.016666666666666666,
+    "ci95": [
+      0.0,
+      0.0375
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.12060990484776665,
+    "ci95": [
+      -0.2173246938389063,
+      -0.0378529183673454
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.0006501168860645224,
+    "ci95": [
+      -0.0020419716240647904,
+      0.0004062362962772089
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.00011217798809004901,
+    "ci95": [
+      -0.0003609203009694806,
+      0.0008000120177808361
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -3.393137041578324e-05,
+    "ci95": [
+      -0.00042896777918726515,
+      0.0003073277181446158
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.006976001062198982,
+    "ci95": [
+      -0.015605613633992202,
+      0.00023877357210690548
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -0.5924917854894315,
+    "ci95": [
+      -1.5310147405369179,
+      0.14769054410720958
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 1.0910421576956597,
+    "ci95": [
+      -0.30137666876869956,
+      3.132798470264061
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.13333333333333333,
+    "ci95": [
+      -0.3,
+      0
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.016666666666666666,
+    "ci95": [
+      -0.004166666666666667,
+      0.041666666666666664
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 0.20949099785355596,
+    "ci95": [
+      0.04683209059442225,
+      0.4023751917068176
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.01584357661783247,
+    "ci95": [
+      0.010739064682347926,
+      0.021637613592764095
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.01573164331048426,
+    "ci95": [
+      0.011199418342343833,
+      0.0203881722449612
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.010033864258266688,
+    "ci95": [
+      0.008010296043566111,
+      0.012168809695089417
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": 0.026396983165120853,
+    "ci95": [
+      0.01636266013744229,
+      0.03758802518292352
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 1.2037539505895858,
+    "ci95": [
+      -0.19180777532488757,
+      2.695478846530809
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 3.2142820482470666,
+    "ci95": [
+      0.8953273830957145,
+      5.573086353992592
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.13333333333333333,
+    "ci95": [
+      -0.3333333333333333,
+      0.03333333333333333
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      -0.0125,
+      0.0125
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 0.3301009027013226,
+    "ci95": [
+      0.18526115161758108,
+      0.5153920519367611
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.016493693503896994,
+    "ci95": [
+      0.011387670586609826,
+      0.022274839134880122
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.01561946532239421,
+    "ci95": [
+      0.01110561814668811,
+      0.020248040587210667
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": 0.01006779562868247,
+    "ci95": [
+      0.007996747031813488,
+      0.0122570477325267
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.03337298422731983,
+    "ci95": [
+      0.022384223184529352,
+      0.04696077519493278
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 1.7962457360790172,
+    "ci95": [
+      0.8847856161068315,
+      3.08891099026043
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 2.123239890551407,
+    "ci95": [
+      0.20119717557792097,
+      4.143676489177273
+    ]
+  },
+  {
+    "scenario": "balanced/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      -0.1,
+      0.1
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.09583333333333334,
+    "ci95": [
+      0.0,
+      0.1875
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -3.014774010327322,
+    "ci95": [
+      -4.330078293731979,
+      -1.8170352253452027
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.024184557281024536,
+    "ci95": [
+      -0.037361262216662666,
+      -0.011641491000968597
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.02478517993372708,
+    "ci95": [
+      -0.04010271631695014,
+      -0.01108656130448484
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.005080231825192675,
+    "ci95": [
+      -0.008796377385105966,
+      -0.0014245074101230124
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.13856927284821313,
+    "ci95": [
+      -0.16083967176672592,
+      -0.11349088826005403
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 2.515352249871952,
+    "ci95": [
+      -2.9768588296115652,
+      8.880416888971563
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 105.27733371376299,
+    "ci95": [
+      73.99244709224668,
+      136.08606924096918
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.7666666666666667,
+    "ci95": [
+      -1.5,
+      0
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.03333333333333333,
+    "ci95": [
+      -0.17916666666666667,
+      0.08333333333333333
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.1858793201051678,
+    "ci95": [
+      -1.9578451431585897,
+      -0.2977598970059415
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.004771153538301717,
+    "ci95": [
+      -0.01238967989983114,
+      0.002136178739146022
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.011780004858354192,
+    "ci95": [
+      -0.02080496122120668,
+      -0.003952579911900104
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0032216705433011305,
+    "ci95": [
+      -0.006970756100606139,
+      5.824023958315346e-05
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.034360349713069456,
+    "ci95": [
+      -0.04833802009508391,
+      -0.020734461786614512
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 1.4631916546495771,
+    "ci95": [
+      -1.4953185173242112,
+      4.3457247406153465
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 14.469656812130298,
+    "ci95": [
+      6.157755960710924,
+      23.891717576043604
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 0.26666666666666666,
+    "ci95": [
+      -0.6666666666666666,
+      1.4
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.041666666666666664,
+    "ci95": [
+      -0.029166666666666667,
+      0.11666666666666667
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.4369135500000394,
+    "ci95": [
+      -2.3434947354725586,
+      -0.5162509844772487
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.006417035454729049,
+    "ci95": [
+      -0.015351178699784711,
+      0.0019018706082681877
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.009757543768522437,
+    "ci95": [
+      -0.02091290718951832,
+      -0.00041421204828731757
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0005571538470104091,
+    "ci95": [
+      -0.002906765424422035,
+      0.00168238568386652
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.0439274502461259,
+    "ci95": [
+      -0.06332711172067253,
+      -0.027361910135036315
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 2.8599271602978553,
+    "ci95": [
+      -2.598814321544823,
+      9.309390596940615
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 18.797639402964442,
+    "ci95": [
+      7.955335839684835,
+      31.236415416983974
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.3333333333333333,
+    "ci95": [
+      -0.9333333333333333,
+      0.23333333333333334
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.4375,
+    "ci95": [
+      -0.575,
+      -0.2875
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 7.254698145081782,
+    "ci95": [
+      5.223470744441757,
+      9.298102460993519
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.032369479759352685,
+    "ci95": [
+      0.0096263369981117,
+      0.05654295922118042
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.029138429089589003,
+    "ci95": [
+      0.006307044489743378,
+      0.05322165553935331
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.021493479680973777,
+    "ci95": [
+      0.016078770007523526,
+      0.02775858715974623
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": 0.056583297988855315,
+    "ci95": [
+      0.03663340824454234,
+      0.07790556579733925
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 33.56963016519717,
+    "ci95": [
+      22.71924083720322,
+      45.487754700928726
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 41.34605067208425,
+    "ci95": [
+      27.73285905708155,
+      56.31312136708912
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 3.5,
+    "ci95": [
+      2.3,
+      4.6
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.4791666666666667,
+    "ci95": [
+      -0.6041666666666666,
+      -0.35
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 8.691611695081821,
+    "ci95": [
+      6.518855809165742,
+      10.840409724099535
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.03878651521408173,
+    "ci95": [
+      0.014576899506204562,
+      0.06242222511869291
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.03889597285811144,
+    "ci95": [
+      0.015683922764663297,
+      0.06297026751778652
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": 0.022050633527984184,
+    "ci95": [
+      0.01719523182412373,
+      0.027457789253750836
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.10051074823498121,
+    "ci95": [
+      0.08112218808098576,
+      0.12047594119452008
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 30.709703004899314,
+    "ci95": [
+      20.813047203868614,
+      42.37223144495531
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 22.548411269119807,
+    "ci95": [
+      10.809997137909628,
+      35.281724480019264
+    ]
+  },
+  {
+    "scenario": "balanced/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 3.8333333333333335,
+    "ci95": [
+      2.8,
+      4.833333333333333
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 1.7625,
+    "ci95": [
+      1.4291666666666667,
+      2.1041666666666665
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -28.782042952657417,
+    "ci95": [
+      -34.21727311154841,
+      -23.597521109708016
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.05046541673880214,
+    "ci95": [
+      -0.06287233717511681,
+      -0.03849294629757506
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.04411776873348866,
+    "ci95": [
+      -0.05828664635895704,
+      -0.02956424645806248
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.014912111275855507,
+    "ci95": [
+      0.005349078337333046,
+      0.024718125533585933
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.3103938674940734,
+    "ci95": [
+      -0.328281754554903,
+      -0.2920625187554741
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 70.12496445255286,
+    "ci95": [
+      51.30940156513383,
+      87.25640232611141
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 269.8643143602334,
+    "ci95": [
+      243.98447697558174,
+      292.50517785701584
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -14.1,
+    "ci95": [
+      -16.866666666666667,
+      -11.433333333333334
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.6083333333333333,
+    "ci95": [
+      0.25416666666666665,
+      0.9416666666666667
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -12.23583239213882,
+    "ci95": [
+      -16.66234654190512,
+      -7.809367882275105
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.013199081843685723,
+    "ci95": [
+      -0.024294664733374945,
+      -0.0018358332495972925
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.008011458551108009,
+    "ci95": [
+      -0.0046294763939137415,
+      0.020505171505332473
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.011630530679269424,
+    "ci95": [
+      -0.0016993195192150515,
+      0.02630208922553106
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.017790496715129046,
+    "ci95": [
+      -0.03628192855453757,
+      -0.00012275946270054645
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 10.47109820480221,
+    "ci95": [
+      -2.1056367288342757,
+      23.945641057885766
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 29.410444379040076,
+    "ci95": [
+      8.081544734816088,
+      51.3252163968977
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -4.866666666666666,
+    "ci95": [
+      -7.533333333333333,
+      -2.066666666666667
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 1.0083333333333333,
+    "ci95": [
+      0.7708333333333334,
+      1.2375
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -15.330294722871207,
+    "ci95": [
+      -18.620433078157884,
+      -12.249815070890541
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.01283448739387356,
+    "ci95": [
+      -0.02282690276286442,
+      -0.003428865267476866
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.008687751275291596,
+    "ci95": [
+      -0.018589519266621647,
+      0.0009536942292949176
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.026846258224915483,
+    "ci95": [
+      0.01810932259036078,
+      0.03582498264222768
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.06888446602384403,
+    "ci95": [
+      -0.08965145850717975,
+      -0.04956776780460559
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 29.912968389889052,
+    "ci95": [
+      16.587469674158267,
+      44.11874032320858
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 48.637658609508655,
+    "ci95": [
+      33.95312169210957,
+      64.76162702475258
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -8.066666666666666,
+    "ci95": [
+      -9.9,
+      -6.2
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.5,
+    "ci95": [
+      -0.8291666666666667,
+      -0.15416666666666667
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 21.031555527210468,
+    "ci95": [
+      13.178737983000632,
+      28.674501015484044
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.009115998154215928,
+    "ci95": [
+      -0.004588102020524224,
+      0.024204139122642555
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.009246983507937668,
+    "ci95": [
+      -0.002779050197748434,
+      0.02165237058319427
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.013009251135169564,
+    "ci95": [
+      0.0004977876240450948,
+      0.026232022618360603
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.04206034535865202,
+    "ci95": [
+      -0.06302001606762149,
+      -0.021717338729162552
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 116.59221262625228,
+    "ci95": [
+      97.01584658003401,
+      136.60980520345512
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 130.45771664014762,
+    "ci95": [
+      106.82304778153996,
+      153.36091267619662
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 4,
+    "ci95": [
+      1.2333333333333334,
+      6.633333333333334
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -1.5083333333333333,
+    "ci95": [
+      -1.7875,
+      -1.2
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 36.36185025008167,
+    "ci95": [
+      30.12898589420178,
+      42.68011054950748
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.02195048554808949,
+    "ci95": [
+      0.008024365613103749,
+      0.03539734026547572
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.017934734783229263,
+    "ci95": [
+      0.006422451039513821,
+      0.02978795718839802
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": -0.01383700708974592,
+    "ci95": [
+      -0.0226194313276808,
+      -0.004613904907966989
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.026824120665192006,
+    "ci95": [
+      0.010043151152568182,
+      0.04324345592051184
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 86.67924423636323,
+    "ci95": [
+      67.0420723126607,
+      108.70261617444369
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 81.82005803063896,
+    "ci95": [
+      56.171156637651656,
+      109.2489552054544
+    ]
+  },
+  {
+    "scenario": "balanced/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 12.066666666666666,
+    "ci95": [
+      9.6,
+      14.3
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.029166666666666667,
+    "ci95": [
+      0.004166666666666667,
+      0.0625
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.6222550239983788,
+    "ci95": [
+      -2.4613406262467583,
+      -0.9454750292134683
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.00025236039131762607,
+    "ci95": [
+      -0.0011720869571600124,
+      0.0007073767897361065
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 6.638233496493821e-05,
+    "ci95": [
+      -0.0030477826766269274,
+      0.0030616204742650614
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -5.612508592212073e-06,
+    "ci95": [
+      -0.00043858262994937817,
+      0.00038475965516366245
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.06359207884519517,
+    "ci95": [
+      -0.0855371127130315,
+      -0.04411708396863629
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -4.204191099486577,
+    "ci95": [
+      -7.244503282249557,
+      -1.4801452906508652
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 5.629906428588551,
+    "ci95": [
+      -0.053070799571348935,
+      12.752358944922465
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.23333333333333334,
+    "ci95": [
+      -0.5,
+      -0.03333333333333333
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.025,
+    "ci95": [
+      0.0,
+      0.058333333333333334
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.2867504387137318,
+    "ci95": [
+      -1.9082735472866659,
+      -0.7826079953638947
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.0007358622557945468,
+    "ci95": [
+      -0.0023152152071251914,
+      0.00039493572722195297
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.0007823864738551762,
+    "ci95": [
+      -0.0036011288257273657,
+      0.0017063510374689885
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.00013223096370616378,
+    "ci95": [
+      -0.0006273547851037564,
+      0.0002493151759939564
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.032720548687214995,
+    "ci95": [
+      -0.04814977963826711,
+      -0.0185193083637082
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -4.461250453123793,
+    "ci95": [
+      -7.1749960682450915,
+      -2.128301156573165
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -0.9354328058776978,
+    "ci95": [
+      -3.2860499112879884,
+      1.2511589758734374
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.2,
+    "ci95": [
+      -0.4666666666666667,
+      0
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.025,
+    "ci95": [
+      0.0,
+      0.058333333333333334
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.289065419573879,
+    "ci95": [
+      -1.8836748326992305,
+      -0.7924707580144101
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.000990522294846204,
+    "ci95": [
+      -0.0025371621892412376,
+      0.0002252728486294764
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.0007823864738551807,
+    "ci95": [
+      -0.0036011288257273687,
+      0.001706351037468981
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.00019091836612473897,
+    "ci95": [
+      -0.0006896766478666327,
+      0.00020261900239646838
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.03827516624747979,
+    "ci95": [
+      -0.05360919788157516,
+      -0.024557551173884095
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -4.570938369980545,
+    "ci95": [
+      -6.942915918789562,
+      -2.489400869718606
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -1.388632648313992,
+    "ci95": [
+      -3.7256626686750707,
+      0.8282394381316742
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.2,
+    "ci95": [
+      -0.4666666666666667,
+      0
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.12916666666666668,
+    "ci95": [
+      -0.25416666666666665,
+      -0.029166666666666667
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 4.3937521842046925,
+    "ci95": [
+      1.997275844830759,
+      7.31549967994811
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.07003777457407769,
+    "ci95": [
+      0.05054077321473546,
+      0.09135373520115683
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.0045011992009774205,
+    "ci95": [
+      -0.011700997822353402,
+      0.0011111910513731736
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.02285305018405739,
+    "ci95": [
+      0.016639677317587812,
+      0.029569735897673487
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": 0.09346442904707242,
+    "ci95": [
+      0.06471573390128645,
+      0.12434371239836446
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 10.450460159776851,
+    "ci95": [
+      4.634914078423786,
+      17.353134077589658
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 12.346546290221678,
+    "ci95": [
+      6.219042203928796,
+      19.141885118126574
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 1.0333333333333334,
+    "ci95": [
+      0.23333333333333334,
+      2
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.15416666666666667,
+    "ci95": [
+      -0.275,
+      -0.058333333333333334
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 5.682817603778572,
+    "ci95": [
+      3.034268155449391,
+      8.790232282929976
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.07102829686892388,
+    "ci95": [
+      0.051616120750213455,
+      0.09283295790527343
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": -0.0037188127271222393,
+    "ci95": [
+      -0.0102538781418772,
+      0.0012750958622317519
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": 0.02304396855018213,
+    "ci95": [
+      0.016741873865012507,
+      0.02995516236225235
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.1317395952945522,
+    "ci95": [
+      0.09862510194295543,
+      0.16588235403326732
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 15.021398529757397,
+    "ci95": [
+      9.121610278906239,
+      21.6502278595541
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 13.73517893853567,
+    "ci95": [
+      8.245817293054573,
+      19.89230273428367
+    ]
+  },
+  {
+    "scenario": "bottleneck/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 1.2333333333333334,
+    "ci95": [
+      0.4666666666666667,
+      2.2
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 1.2708333333333333,
+    "ci95": [
+      1.0125,
+      1.5291666666666666
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -33.95014280826702,
+    "ci95": [
+      -40.30314970308751,
+      -27.73517411664987
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.002443275803649081,
+    "ci95": [
+      -0.003994085414803146,
+      -0.0008443268962768998
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.04102477845011436,
+    "ci95": [
+      -0.059016566233681705,
+      -0.025718381244891144
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0016722254035261748,
+    "ci95": [
+      -0.00036555811625748426,
+      0.003751922135275615
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.32085003587418454,
+    "ci95": [
+      -0.34229265005498916,
+      -0.29678042475377825
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 41.92324860401816,
+    "ci95": [
+      21.39631899523479,
+      65.11734956447584
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 243.79775508793807,
+    "ci95": [
+      200.2470029390848,
+      282.1552063933196
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -10.166666666666666,
+    "ci95": [
+      -12.233333333333333,
+      -8.1
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.21666666666666667,
+    "ci95": [
+      0.14166666666666666,
+      0.3
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -7.496987921950732,
+    "ci95": [
+      -8.887795245975578,
+      -6.09510085303113
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.0001750023947155029,
+    "ci95": [
+      -0.00021593599704742284,
+      0.0007409431811939575
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.006927937353667804,
+    "ci95": [
+      -0.016833909231747674,
+      0.0014562440324315871
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0010179689373565467,
+    "ci95": [
+      -0.0007526623628679174,
+      0.002653035981666474
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.014014079024307336,
+    "ci95": [
+      -0.026423388180049637,
+      -0.00395351994805016
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -9.351240753825753,
+    "ci95": [
+      -14.411632402423251,
+      -4.529753639726965
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 8.884367143730797,
+    "ci95": [
+      4.763824225536332,
+      13.307755409133588
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -1.7333333333333334,
+    "ci95": [
+      -2.4,
+      -1.1333333333333333
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.2,
+    "ci95": [
+      0.1125,
+      0.2791666666666667
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -6.5070264836480405,
+    "ci95": [
+      -8.016954073106616,
+      -4.781217813243592
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.0004301946088189753,
+    "ci95": [
+      -0.0013809418012502646,
+      0.0004745455846534519
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.003683895249921899,
+    "ci95": [
+      -0.011676183452968366,
+      0.0025788188075158017
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0019351863333020136,
+    "ci95": [
+      -1.0222693169268752e-05,
+      0.003680301950542388
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.012912167323259007,
+    "ci95": [
+      -0.023026958590285355,
+      -0.003359298209173515
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -8.544400017006867,
+    "ci95": [
+      -13.206375376084889,
+      -3.59250612216496
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -0.7513247908992189,
+    "ci95": [
+      -4.406387864124185,
+      3.02960484303007
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -1.6,
+    "ci95": [
+      -2.2333333333333334,
+      -0.9
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -2.0458333333333334,
+    "ci95": [
+      -2.25,
+      -1.8458333333333332
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 81.19170949702556,
+    "ci95": [
+      72.85849614450386,
+      88.70769104035287
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.010104448746214563,
+    "ci95": [
+      0.002191915022655988,
+      0.02140188171856382
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.06544071241492745,
+    "ci95": [
+      -0.07799487493230466,
+      -0.054414623963644305
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.006602127600402043,
+    "ci95": [
+      -0.010451527021683022,
+      -0.0020274002838133113
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": 0.04279544799444694,
+    "ci95": [
+      0.016768052415494412,
+      0.07843868877022167
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 203.23709238346993,
+    "ci95": [
+      181.92223214629757,
+      222.85458124485393
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 224.39395674252822,
+    "ci95": [
+      202.5759450581759,
+      243.76039149434726
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 16.366666666666667,
+    "ci95": [
+      14.766666666666667,
+      18
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -2.245833333333333,
+    "ci95": [
+      -2.45,
+      -2.0416666666666665
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 87.69873598067359,
+    "ci95": [
+      79.22305154164322,
+      95.1855230023483
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.010534643355033539,
+    "ci95": [
+      0.0024277443797316297,
+      0.022280742440320654
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": -0.06175681716500555,
+    "ci95": [
+      -0.07130439211393275,
+      -0.05208968760919031
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": -0.008537313933704056,
+    "ci95": [
+      -0.01237403363242799,
+      -0.0040056332664402195
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.05570761531770595,
+    "ci95": [
+      0.02592185251647568,
+      0.09690374213218421
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 211.7814924004768,
+    "ci95": [
+      189.8103167065839,
+      231.35534059352648
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 225.14528153342744,
+    "ci95": [
+      203.87082051073946,
+      244.70767906306344
+    ]
+  },
+  {
+    "scenario": "bottleneck/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 17.966666666666665,
+    "ci95": [
+      16.333333333333332,
+      19.6
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 4.05,
+    "ci95": [
+      3.8125,
+      4.295833333333333
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -116.29323683520866,
+    "ci95": [
+      -124.23294218621895,
+      -108.86940528428156
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.002319387162021506,
+    "ci95": [
+      -0.003862152817614558,
+      -0.0009074199892909325
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.10723371948848705,
+    "ci95": [
+      -0.1286213293294225,
+      -0.08636282684898859
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0036951658379350233,
+    "ci95": [
+      0.001354570763292438,
+      0.006016184888005305
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.2908749617186298,
+    "ci95": [
+      -0.30058512890384403,
+      -0.2807024543641567
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 85.15533330449689,
+    "ci95": [
+      68.26825174412241,
+      100.78282963909722
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 337.02754634003577,
+    "ci95": [
+      317.38870296024766,
+      354.02012885215055
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -32.4,
+    "ci95": [
+      -34.36666666666667,
+      -30.5
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.4375,
+    "ci95": [
+      0.32916666666666666,
+      0.55
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -17.100933332023732,
+    "ci95": [
+      -19.486310658891938,
+      -14.79654120702853
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.000154325512247618,
+    "ci95": [
+      -0.0004366647449484858,
+      1.850371707708594e-17
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.009519123330937119,
+    "ci95": [
+      -0.019901099951956307,
+      9.891985235925086e-06
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0024023351236840016,
+    "ci95": [
+      -0.00017654016624869354,
+      0.0050740826105958965
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.0025451774441047625,
+    "ci95": [
+      -0.006447982931247686,
+      0.0015112290653878017
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -18.161878689299055,
+    "ci95": [
+      -25.512336087779918,
+      -11.450938603510254
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -1.9824112543663943,
+    "ci95": [
+      -7.419229832888822,
+      3.2945015306193115
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -3.5,
+    "ci95": [
+      -4.4,
+      -2.6333333333333333
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.35833333333333334,
+    "ci95": [
+      0.26666666666666666,
+      0.45416666666666666
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -14.111689075836416,
+    "ci95": [
+      -16.748107433382184,
+      -11.653386193956031
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -2.6311791794394098e-05,
+    "ci95": [
+      -7.893537538318599e-05,
+      1.1102230246251566e-17
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.00286332057374409,
+    "ci95": [
+      -0.014358032126395418,
+      0.007905482072490522
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0022636304218487985,
+    "ci95": [
+      -0.000673787415162432,
+      0.005333010060767807
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.007005385820999218,
+    "ci95": [
+      -0.011413640715623648,
+      -0.002805761938403084
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -14.059714597406243,
+    "ci95": [
+      -20.901090679978488,
+      -8.24118486923256
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -7.894696049829416,
+    "ci95": [
+      -13.449865365424431,
+      -3.1124277484915654
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -2.8666666666666667,
+    "ci95": [
+      -3.6333333333333333,
+      -2.1333333333333333
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": -1.9458333333333333,
+    "ci95": [
+      -2.1333333333333333,
+      -1.7541666666666667
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 161.41371786442735,
+    "ci95": [
+      152.57104784371248,
+      169.6947904772559
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 6.668636730225627e-05,
+    "ci95": [
+      -5.2623583588784496e-05,
+      0.00020657382823742557
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.07294425667383647,
+    "ci95": [
+      -0.08463117506619773,
+      -0.06055403220210961
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.01950922526471558,
+    "ci95": [
+      -0.023314318353294942,
+      -0.01572649367885692
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.0017775972001000191,
+    "ci95": [
+      -0.005983666489906666,
+      0.0023693918710362563
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 416.7504999754373,
+    "ci95": [
+      399.74640261518675,
+      433.75809873804934
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 453.7383642970834,
+    "ci95": [
+      436.77471939395735,
+      470.4292065087193
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 15.566666666666666,
+    "ci95": [
+      14,
+      17.033333333333335
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -2.3041666666666667,
+    "ci95": [
+      -2.4916666666666667,
+      -2.1125
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 175.52540694026376,
+    "ci95": [
+      166.1199466870955,
+      184.32588395863954
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 9.299815909665036e-05,
+    "ci95": [
+      -7.401486830834377e-18,
+      0.00023288562003179376
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": -0.07008093610009239,
+    "ci95": [
+      -0.08219863968915177,
+      -0.057745796046570014
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": -0.02177285568656438,
+    "ci95": [
+      -0.02558680154659548,
+      -0.01805833240336455
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.005227788620899199,
+    "ci95": [
+      0.0007128906265187547,
+      0.01052584952261753
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 430.81021457284356,
+    "ci95": [
+      413.79715653207626,
+      447.45579643803717
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 461.6330603469128,
+    "ci95": [
+      442.62246328124036,
+      480.57381864782815
+    ]
+  },
+  {
+    "scenario": "bottleneck/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 18.433333333333334,
+    "ci95": [
+      16.866666666666667,
+      19.933333333333334
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.05831409568965135,
+    "ci95": [
+      -0.0986117111592721,
+      -0.02376561448198806
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.00013930630652161843,
+    "ci95": [
+      0.0,
+      0.0004179189195648553
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -6.640597599545476e-05,
+    "ci95": [
+      -0.0007612924121835433,
+      0.0006284804601926264
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 9.870436403680571e-05,
+    "ci95": [
+      -0.0001540274014858678,
+      0.0004063424069158217
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.001337671984397888,
+    "ci95": [
+      -0.004458497728174452,
+      0.001728395061728395
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -0.4872261187201902,
+    "ci95": [
+      -1.0618678104139785,
+      -0.07857688037375254
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -0.3112762056893253,
+    "ci95": [
+      -1.157246017258244,
+      0.4841063054040833
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.047916236449804306,
+    "ci95": [
+      -0.08657636468311902,
+      -0.018088560496520693
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.00013930630652161843,
+    "ci95": [
+      0.0,
+      0.0004179189195648553
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.00016463512623336358,
+    "ci95": [
+      -0.00029921020772590473,
+      0.0007498975571403702
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.00017571806477973962,
+    "ci95": [
+      1.6843881663416069e-06,
+      0.00046866432253141465
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.001337671984397888,
+    "ci95": [
+      -0.004458497728174452,
+      0.001728395061728395
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -0.34136486855663223,
+    "ci95": [
+      -0.867526537158123,
+      0.009274454773689437
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -0.6028322089832829,
+    "ci95": [
+      -1.319887446771599,
+      -0.01968092014816989
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.048036579157903984,
+    "ci95": [
+      -0.0866967073912187,
+      -0.018120678504233784
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.00013930630652161843,
+    "ci95": [
+      0.0,
+      0.0004179189195648553
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.00016463512623336358,
+    "ci95": [
+      -0.00029921020772590473,
+      0.0007498975571403702
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.00017571806477973962,
+    "ci95": [
+      1.6843881663416069e-06,
+      0.00046866432253141465
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.001337671984397888,
+    "ci95": [
+      -0.004458497728174452,
+      0.001728395061728395
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -0.3709426581947575,
+    "ci95": [
+      -0.8848883619479264,
+      -0.026265992738138285
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -0.6028322089832829,
+    "ci95": [
+      -1.319887446771599,
+      -0.01968092014816989
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": 0.030186982882479146,
+    "ci95": [
+      -0.02891637685648012,
+      0.09960073637132277
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.0043165289336615864,
+    "ci95": [
+      0.002146575929583634,
+      0.006808448518056285
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.002449104888443972,
+    "ci95": [
+      -0.00010930335787738646,
+      0.004956589116798343
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.00208873357490706,
+    "ci95": [
+      0.0012455610465417432,
+      0.0030476087909925742
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": 0.0040517026156603525,
+    "ci95": [
+      -0.0003387799564270153,
+      0.008771451369747614
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 0.10036477316979221,
+    "ci95": [
+      -0.5303787124618243,
+      0.7468562996660576
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 0.3209257386535477,
+    "ci95": [
+      -0.9220293006978866,
+      2.0511677167019515
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 0.07822356204038314,
+    "ci95": [
+      0.01400857510481897,
+      0.15639187478494526
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.004177222627139968,
+    "ci95": [
+      0.0020060833028386375,
+      0.006685135235010897
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.0022844697622106088,
+    "ci95": [
+      -0.0001478618829469693,
+      0.004700791289995632
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0019130155101273203,
+    "ci95": [
+      0.0009938940992079129,
+      0.0028942125917934196
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.005389374600058241,
+    "ci95": [
+      0.0019883085525479734,
+      0.009042522186471752
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 0.4713074313645497,
+    "ci95": [
+      0.036005759031251236,
+      1.0591063418801412
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 0.9237579476368306,
+    "ci95": [
+      0.0,
+      2.4398503542507637
+    ]
+  },
+  {
+    "scenario": "local_heavy/low",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.075,
+    "ci95": [
+      0.025,
+      0.13333333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.01466648593192,
+    "ci95": [
+      -1.414797132173576,
+      -0.6280398406248208
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.00021869749728241442,
+    "ci95": [
+      -0.010770443864501138,
+      0.010222610975153583
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.014260277457043556,
+    "ci95": [
+      -0.026771584260344827,
+      -0.004140623772719681
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0009468439920416201,
+    "ci95": [
+      -0.0035988481534197205,
+      0.0012707608489205416
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.05632656928806656,
+    "ci95": [
+      -0.07071100258516913,
+      -0.04229264936819162
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -3.9099297460715263,
+    "ci95": [
+      -6.952822758760752,
+      -1.1798548161763491
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 31.846242447980455,
+    "ci95": [
+      14.564671705738938,
+      52.41154906042417
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.6,
+    "ci95": [
+      -1.0666666666666667,
+      -0.2
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.05416666666666667,
+    "ci95": [
+      0.004166666666666667,
+      0.10833333333333334
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.768672185718916,
+    "ci95": [
+      -1.1739397582771358,
+      -0.3816409457798743
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.00723207346306479,
+    "ci95": [
+      0.00014521054018234262,
+      0.013562889359979879
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.005279832469641746,
+    "ci95": [
+      -0.013367893614198424,
+      0.0020478261382759415
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.00022822820406791325,
+    "ci95": [
+      -0.0009299038891302069,
+      0.0014992743406884723
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.03807205814627359,
+    "ci95": [
+      -0.053277531849865084,
+      -0.024940568653513986
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -2.911268869042598,
+    "ci95": [
+      -5.433231850477643,
+      -0.5873110337170014
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 6.7179117735826095,
+    "ci95": [
+      -0.19491954127258543,
+      13.906714211768692
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.43333333333333335,
+    "ci95": [
+      -0.8666666666666667,
+      -0.03333333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.09583333333333334,
+    "ci95": [
+      0.04583333333333333,
+      0.15416666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -1.0388534075231186,
+    "ci95": [
+      -1.4473252568218098,
+      -0.6607990433560966
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.003663023729847002,
+    "ci95": [
+      -0.003031432251605709,
+      0.009904557196706363
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.007974149112437618,
+    "ci95": [
+      -0.015321314271360381,
+      -0.0004960385130059734
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0012711652616843871,
+    "ci95": [
+      -0.0029585904157956736,
+      0.0006566497044116307
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.03755126508671184,
+    "ci95": [
+      -0.049024413350343195,
+      -0.026638697164685584
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -5.578327750792791,
+    "ci95": [
+      -8.684262035704561,
+      -2.895092094640586
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 0.6733604213323287,
+    "ci95": [
+      -3.994632827924891,
+      5.576034636736885
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.7666666666666667,
+    "ci95": [
+      -1.2333333333333334,
+      -0.36666666666666664
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.05,
+    "ci95": [
+      -0.008333333333333333,
+      0.10416666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -0.43400647541774584,
+    "ci95": [
+      -0.8108933949822946,
+      0.003965505064884015
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.005713332129459068,
+    "ci95": [
+      -0.0024323032831067366,
+      0.013657117218011815
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": 0.003934821367809995,
+    "ci95": [
+      -0.004594940718772494,
+      0.012025415885583389
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.002687822101185631,
+    "ci95": [
+      0.00026817887007419644,
+      0.0049533953334064485
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.01491497510369376,
+    "ci95": [
+      -0.026109401746525283,
+      -0.0034870386882407483
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -2.195475074882416,
+    "ci95": [
+      -5.662582777340933,
+      1.3660645604999704
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 4.891101816964328,
+    "ci95": [
+      -1.5043854269252286,
+      11.90819565434314
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -0.4,
+    "ci95": [
+      -0.8333333333333334,
+      0.06666666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.04583333333333333,
+    "ci95": [
+      -0.09166666666666666,
+      -0.008333333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 0.6048469321053728,
+    "ci95": [
+      0.16466227254067542,
+      1.239990574306908
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.0020503083996120663,
+    "ci95": [
+      -0.006059652288766391,
+      0.00891168518291128
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.011908970480247612,
+    "ci95": [
+      0.0051213250859289796,
+      0.018924446399183562
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0039589873628700185,
+    "ci95": [
+      0.0018317624587280868,
+      0.0060877423311629375
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.02263628998301808,
+    "ci95": [
+      0.014865104459030047,
+      0.03163118068584786
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 3.3828526759103754,
+    "ci95": [
+      0.5687153631336747,
+      7.332548127450242
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 4.217741395631999,
+    "ci95": [
+      -1.090857910051908,
+      11.028579767838364
+    ]
+  },
+  {
+    "scenario": "local_heavy/medium",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 0.36666666666666664,
+    "ci95": [
+      0.06666666666666667,
+      0.7333333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 2.6375,
+    "ci95": [
+      2.1958333333333333,
+      3.0708333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -34.41106751675304,
+    "ci95": [
+      -40.14631552961929,
+      -28.626609024569003
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.046527690753534905,
+    "ci95": [
+      -0.08106591089522781,
+      -0.012878888835143786
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.09300512070491948,
+    "ci95": [
+      -0.1289418302341343,
+      -0.0604390248298258
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0019262894436976338,
+    "ci95": [
+      -0.0049255596580132155,
+      0.0005415947685306732
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.4080509632017343,
+    "ci95": [
+      -0.429976661787246,
+      -0.38468221649720197
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": 49.9946106702206,
+    "ci95": [
+      32.726533085334786,
+      68.15040355402724
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 282.90672893498424,
+    "ci95": [
+      253.49318612785987,
+      308.8173686650749
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "spt",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -21.1,
+    "ci95": [
+      -24.566666666666666,
+      -17.566666666666666
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.4875,
+    "ci95": [
+      0.35833333333333334,
+      0.6208333333333333
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -10.658896063424804,
+    "ci95": [
+      -12.649616803701443,
+      -8.577495264228949
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.004655270115234942,
+    "ci95": [
+      -0.030261162631422204,
+      0.020363026380962955
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.021834814164987938,
+    "ci95": [
+      -0.047354282241765855,
+      0.004156509533002365
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0009949889610812075,
+    "ci95": [
+      -0.003143028864020473,
+      0.000810801631277395
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.025558224647217645,
+    "ci95": [
+      -0.03784435006684635,
+      -0.013246259710801437
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -4.385651376717962,
+    "ci95": [
+      -13.60056549118878,
+      5.0811439246031425
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 11.228810226020817,
+    "ci95": [
+      -2.5420909283693116,
+      25.493245440291933
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "edf",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -3.9,
+    "ci95": [
+      -5,
+      -2.8666666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.5125,
+    "ci95": [
+      0.38333333333333336,
+      0.6375
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -10.735088646081666,
+    "ci95": [
+      -12.458663067633681,
+      -9.044740297302674
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": 0.027580880732777972,
+    "ci95": [
+      0.007622160813919104,
+      0.04719757509365393
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.023718408216487682,
+    "ci95": [
+      -0.04298712152692155,
+      -0.004223924980847256
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": 0.0007250632252520058,
+    "ci95": [
+      -0.0009131173289174011,
+      0.0024960014505885403
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.028151940861478753,
+    "ci95": [
+      -0.03689618524237188,
+      -0.019599262012715654
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -15.171126343562584,
+    "ci95": [
+      -22.460940094820735,
+      -8.30695988477397
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": -12.010330302086798,
+    "ci95": [
+      -23.35458544069221,
+      -2.087001691431894
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -4.1,
+    "ci95": [
+      -5.133333333333334,
+      -3.066666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "throughput_per_hour",
+    "mean_difference": 0.2375,
+    "ci95": [
+      0.125,
+      0.3416666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "average_wait",
+    "mean_difference": -5.985858721727329,
+    "ci95": [
+      -7.437440093147057,
+      -4.474935980737463
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.004076849835296502,
+    "ci95": [
+      -0.027819967410597248,
+      0.015275205987452183
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "station_utilization",
+    "mean_difference": -0.011521295385492476,
+    "ci95": [
+      -0.029621342541892016,
+      0.008947198072179708
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "robot_utilization",
+    "mean_difference": -0.000542008964434045,
+    "ci95": [
+      -0.0023856828413424255,
+      0.0010217493735097652
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "miss_rate",
+    "mean_difference": -0.009225326302118949,
+    "ci95": [
+      -0.019123832550983374,
+      -0.00020845349450793194
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "p95_wait",
+    "mean_difference": -0.3832608865092008,
+    "ci95": [
+      -7.684285820997814,
+      6.787849254860174
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "max_wait",
+    "mean_difference": 2.68836189145407,
+    "ci95": [
+      -11.001810398759853,
+      14.638385552362546
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "fifo",
+    "metric": "backlog",
+    "mean_difference": -1.9,
+    "ci95": [
+      -2.7333333333333334,
+      -1
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "throughput_per_hour",
+    "mean_difference": -0.275,
+    "ci95": [
+      -0.375,
+      -0.17916666666666667
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "average_wait",
+    "mean_difference": 4.749229924354338,
+    "ci95": [
+      3.6165882187552003,
+      5.881154182245904
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "corridor_utilization",
+    "mean_difference": -0.03165773056807447,
+    "ci95": [
+      -0.05025475873669972,
+      -0.011776387806259161
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "station_utilization",
+    "mean_difference": 0.012197112830995208,
+    "ci95": [
+      -0.006062273589936055,
+      0.029528451447456028
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "robot_utilization",
+    "mean_difference": -0.0012670721896860507,
+    "ci95": [
+      -0.0025109927067723747,
+      -0.00024325865804518675
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "miss_rate",
+    "mean_difference": 0.018926614559359803,
+    "ci95": [
+      0.012104897584053935,
+      0.02615553744270842
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "p95_wait",
+    "mean_difference": 14.787865457053384,
+    "ci95": [
+      6.49335612644527,
+      22.650554763463482
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "max_wait",
+    "mean_difference": 14.698692193540868,
+    "ci95": [
+      7.128377504180869,
+      23.079894539933786
+    ]
+  },
+  {
+    "scenario": "local_heavy/high",
+    "candidate": "resource_aware_v2",
+    "baseline": "resource_aware",
+    "metric": "backlog",
+    "mean_difference": 2.2,
+    "ci95": [
+      1.4,
+      3
+    ]
+  }
+]
