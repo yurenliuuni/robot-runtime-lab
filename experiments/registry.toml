@@ -18,8 +18,10 @@ path = "robotics/robot-runtime"
 [[experiment]]
 id = "SYS-001"
 title = "排程機制拆解：matching / aging / SPT ablation"
-status = "planned"
+status = "active"
 path = "computer-systems/process-scheduling"
+protocol = "computer-systems/process-scheduling/protocol.md"
+results = "experiments/results/SYS-001"
 
 [[experiment]]
 id = "SYS-002"

@@ -118,18 +118,25 @@ def benchmark(experiment_id, profile, root=ROOT):
     items = {x["id"]: x for x in registry(root)}
     if experiment_id not in items:
         raise ValueError(f"unknown experiment: {experiment_id}")
-    if experiment_id != "RRL-001" or items[experiment_id]["status"] != "measured":
+    if experiment_id not in {"RRL-001", "SYS-001"} or items[experiment_id]["status"] not in {"active", "measured"}:
         raise ValueError("planned experiments have no executable benchmark yet")
     seeds, seed_start, improved = PROFILES[profile]
+    if experiment_id == "SYS-001":
+        seeds, seed_start, improved = {"smoke": (2,120,False), "baseline": (30,60,False), "validation": (30,90,False)}[profile]
     workdir = within(root, items[experiment_id]["path"])
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "-" + uuid.uuid4().hex[:8]
     run_dir = root / "experiments/results" / experiment_id / run_id
     command = [sys.executable, "-m", "robot_runtime_lab.experiment", "--seeds", str(seeds),
                "--seed-start", str(seed_start), "--out", str(run_dir / "artifacts")]
+    if experiment_id == "SYS-001":
+        command = [sys.executable, "ablation.py", "--profile", profile, "--out", str(run_dir / "artifacts")]
     if improved:
         command.append("--include-v3")
     sources = sorted((workdir / "robot_runtime_lab").glob("*.py"))
     sources += sorted((workdir / "docs").glob("*protocol.md"))
+    if experiment_id == "SYS-001":
+        sources += sorted(workdir.glob("*.py")) + [workdir / "protocol.md"]
+        sources += sorted((root / "robotics/resource-scheduling/robot_runtime_lab").glob("*.py"))
     sources += [root / "scripts/lab.py", root / "experiments/registry.toml"]
     metadata = {"run_id": run_id, "experiment_id": experiment_id, "profile": profile,
                 "purpose": "pipeline-validation" if profile == "smoke" else "research-reproduction",
@@ -141,7 +148,7 @@ def benchmark(experiment_id, profile, root=ROOT):
 
 
 def test(root=ROOT):
-    for cwd, directory in [(root, "tests"), (root / "robotics/resource-scheduling", "tests")]:
+    for cwd, directory in [(root, "tests"), (root / "robotics/resource-scheduling", "tests"), (root / "computer-systems/process-scheduling", "tests")]:
         result = subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", directory, "-v"], cwd=cwd)
         if result.returncode:
             return result.returncode
