@@ -1,0 +1,21 @@
+---
+description: Preserve reproducible evidence and distinguish measured findings from proposals throughout the research lab
+alwaysApply: true
+---
+
+# Research evidence
+
+- Use Traditional Chinese for knowledge notes; retain English technical terms where useful.
+- Start with experiments/registry.toml, hypotheses.md and decisions.md.
+- Every experiment needs a stable ID, falsifiable hypothesis, baseline, fixed success threshold, metrics with units, data provenance and execution command.
+- Write the protocol before measuring. Label post-hoc changes and use fresh validation data/seeds.
+- Do not overwrite historical results. Use scripts/lab.py benchmark for new run directories.
+- Preserve failed hypotheses, negative results and unsuccessful runs.
+- A smoke run validates plumbing; it is not research evidence for performance claims.
+- Link claims to source URLs or run IDs. Separate observation, interpretation and assumption.
+- No fabricated measurements, citations, execution status or product comparisons.
+- Cross-domain analogies are hypotheses until tested in their target domain.
+- Record document version, date and jurisdiction for finance/law/construction sources; distinguish calculation from advice.
+- Run scripts/lab.py check and test for code changes. Benchmark only when needed to validate changed behavior.
+- Avoid copying a study into multiple domains. Link to its canonical registry entry.
+- No background automation, hardware control, external messages, paid services or repository creation unless separately requested.

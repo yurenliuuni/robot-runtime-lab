@@ -1,0 +1,28 @@
+{
+  "source_commit": "e93836dd639d3f04f9b4bf0ef26554fa9fa956ae",
+  "sha256": {
+    "robotics/resource-scheduling/results/comparisons.json": "a904547bb97fce88a670d5b6d120f3973e35ef5db71ee199a39eacdd6e1496f6",
+    "robotics/resource-scheduling/results/improvement/comparisons.json": "4440721eadf3e55dfab9fa919efc10d93359b983ba639f28a3c821cab9242427",
+    "robotics/resource-scheduling/results/improvement/manifest.json": "14d85d8bd97ff581475ca71e4cf3f53138bce56a13a17468f4836caf450f285d",
+    "robotics/resource-scheduling/results/improvement/per_kind.csv": "e404d11178dbb14508c7e979b0f89fe1797fa718c535dc12ab011a7f5bf870fb",
+    "robotics/resource-scheduling/results/improvement/raw_metrics.csv": "3fa9f470b13ee22211b1a56805b1e390d0c73ee727e8fa3e3734941a9e18441e",
+    "robotics/resource-scheduling/results/improvement/report.html": "0625d53c5d984468aedaa6c5646acbccac6510d9fd3cba240d6528a810e67f05",
+    "robotics/resource-scheduling/results/improvement/summary.csv": "418929bd3e546174581705112c478a6148c88cfbe7b089da17429ecdb65732d6",
+    "robotics/resource-scheduling/results/improvement/trace_edf.json": "05da0f744f912323f63d027beb1b3ee230dde9993f4c91c07087dfb5a5ef45f0",
+    "robotics/resource-scheduling/results/improvement/trace_fifo.json": "940fdbbf7c3f35e7f52208bedd3b20b188ac2a6f8f1b755f7ba0641a5d77b084",
+    "robotics/resource-scheduling/results/improvement/trace_resource_aware.json": "3e71f8271f21226e3464eb26c11a9a80d925dd644feabb23452bac9376b46138",
+    "robotics/resource-scheduling/results/improvement/trace_resource_aware_v2.json": "bb64d37767fda772912dfe415364fbad7e2f7a890747674634eca46f4e29d8c3",
+    "robotics/resource-scheduling/results/improvement/trace_resource_aware_v3.json": "3420f3a08a907e695c2370b162b53e7dbadefc43f7d6a11f72c17b949e681ee8",
+    "robotics/resource-scheduling/results/improvement/trace_spt.json": "ea82cdd262eba255d6fef58cedbbb205e0acabf77f940f1e28d30b1a1e78dc86",
+    "robotics/resource-scheduling/results/manifest.json": "12a6cc961e23451a5ab3beaab2c877bf1044eb51ab1feb67ce4d9c99143e3d26",
+    "robotics/resource-scheduling/results/per_kind.csv": "7f4cc32d732e5bb6f3a02926ec764975b819a19d0fa4ef4d20450eec1fc47a78",
+    "robotics/resource-scheduling/results/raw_metrics.csv": "ed5bedf3762ac187ccd7cebf2dda40a855369ab5709424646242c5ef4107ac7d",
+    "robotics/resource-scheduling/results/report.html": "5c1491a502c880a5b153c4e2cdcd285e77d2703c63d73f5d1e32455b3d361908",
+    "robotics/resource-scheduling/results/summary.csv": "c29f8d7a1474c89e6052fb1ebaedfe845cbe801cb53f8a6f54c28ee4b615fa79",
+    "robotics/resource-scheduling/results/trace_edf.json": "0c9bffbcf2389ec355242a276e1dcb7e97181ef1bc1e9827b77f3a7981ce853c",
+    "robotics/resource-scheduling/results/trace_fifo.json": "f2eb1e2a6c800c20abdff710b6c18c5047814fb0cf5b26d3c8af4bdb0ba70cb3",
+    "robotics/resource-scheduling/results/trace_resource_aware.json": "73c6347954bc7d40a60011a3fc2d7dbdf6658ee3fcaafbb6ad4d07b5047c69c1",
+    "robotics/resource-scheduling/results/trace_resource_aware_v2.json": "0467a9d4a626d97f1a9c9abb6206e426491d6894e21c1ac243d13655da9b08dc",
+    "robotics/resource-scheduling/results/trace_spt.json": "7b3c946cd3825222a98658fbbe7b0ed47bc187071f3d713e8516d66cbfce863b"
+  }
+}

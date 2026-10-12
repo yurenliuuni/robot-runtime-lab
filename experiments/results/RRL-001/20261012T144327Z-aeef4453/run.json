@@ -1,0 +1,57 @@
+{
+  "run_id": "20261012T144327Z-aeef4453",
+  "experiment_id": "RRL-001",
+  "profile": "smoke",
+  "purpose": "pipeline-validation",
+  "git": {
+    "commit": "e93836dd639d3f04f9b4bf0ef26554fa9fa956ae",
+    "dirty": true
+  },
+  "seeds": [
+    0,
+    1
+  ],
+  "source_sha256": {
+    "robotics/resource-scheduling/robot_runtime_lab/__init__.py": "fb94a3b06b8dc87eec5608ee33e57350e9f5d09ea36ba71d0043edf1d652b34c",
+    "robotics/resource-scheduling/robot_runtime_lab/experiment.py": "f834d7dea72da0d71b6f8d7782f22aab2773129d81e6b4be2457866aa544f569",
+    "robotics/resource-scheduling/robot_runtime_lab/simulator.py": "023c833cf3d9aba0634dceb2e5042829ce6af37a2806bdc1add6ae5696ef5220",
+    "robotics/resource-scheduling/docs/improvement-protocol.md": "4815a722f5de969353050b7359260e093b1dc49bba23961bc881f3ee57eb1bdb",
+    "robotics/resource-scheduling/docs/protocol.md": "c04c45a8c0423610d0e9d3b70ab3dce3946936af5067a2f663fa1d866487f657",
+    "scripts/lab.py": "73f72b6987d0713f5ed0d847ff29d31857ba69e5149d1ff3b9b71803e0d3fe7c",
+    "experiments/registry.toml": "76172fc45f644463a36248e94b103e6f61034b4a7c68cd37958ccb42553d2de8"
+  },
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-m",
+    "robot_runtime_lab.experiment",
+    "--seeds",
+    "2",
+    "--seed-start",
+    "0",
+    "--out",
+    "/Users/a0/.codex/.chatgpt-projects/g-p-6acc28d3c7008191b5b97a90fa2aee60/research-lab/experiments/results/RRL-001/20261012T144327Z-aeef4453/artifacts"
+  ],
+  "cwd": "/Users/a0/.codex/.chatgpt-projects/g-p-6acc28d3c7008191b5b97a90fa2aee60/research-lab/robotics/resource-scheduling",
+  "started_at": "2026-10-12T14:43:27.891731+00:00",
+  "status": "completed",
+  "python": "3.12.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "exit_code": 0,
+  "finished_at": "2026-10-12T14:43:34.168946+00:00",
+  "wall_seconds": 6.255357957998058,
+  "output_sha256": {
+    "artifacts/comparisons.json": "36f636d6d470b070a577e08c2a8513ad88799b73c275490a5c99b0a4f9e81b28",
+    "artifacts/manifest.json": "12649cec2699f0bfab508c020974214c73c5c4f0f19b266d4206ab5c22f37322",
+    "artifacts/per_kind.csv": "5b0a2664e1658aad117e4d2ad68774eefc50e525a7bb650e6fbcde4d8366bffd",
+    "artifacts/raw_metrics.csv": "4c285d643cf8759b28ced5c9203221b6fe7ec691b852709694d04f59b830f3ac",
+    "artifacts/report.html": "2e9ce201dda0926b9ee181900fabc7cfef51328e4f1147e0a948b07eaa8da6ad",
+    "artifacts/summary.csv": "041ec2625f9b3040753b654e99cfbcc98336229a4a6665ad2e62a0835b43e7bb",
+    "artifacts/trace_edf.json": "0c9bffbcf2389ec355242a276e1dcb7e97181ef1bc1e9827b77f3a7981ce853c",
+    "artifacts/trace_fifo.json": "f2eb1e2a6c800c20abdff710b6c18c5047814fb0cf5b26d3c8af4bdb0ba70cb3",
+    "artifacts/trace_resource_aware.json": "73c6347954bc7d40a60011a3fc2d7dbdf6658ee3fcaafbb6ad4d07b5047c69c1",
+    "artifacts/trace_resource_aware_v2.json": "0467a9d4a626d97f1a9c9abb6206e426491d6894e21c1ac243d13655da9b08dc",
+    "artifacts/trace_spt.json": "7b3c946cd3825222a98658fbbe7b0ed47bc187071f3d713e8516d66cbfce863b",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "7341b1c3150494b50940baefbfb8e8b1aace291d8fb3598889347901fb9fcc12"
+  }
+}
